@@ -15,8 +15,7 @@ export default function Section1() {
                   <div className="block-banner">
                     <h1 className="heading-banner display-1 mb-30 wow animate__animated animate__fadeInUp">
                       USA - Accreditation
-                      <br className="d-none d-lg-block" />
-                      Council
+                      <br className="d-none d-lg-block" /> Council
                     </h1>
                     <div
                       className="banner-description text-xl mb-60 mt-30 wow animate__animated animate__fadeInUp"
