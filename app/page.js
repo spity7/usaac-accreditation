@@ -109,7 +109,12 @@ export default function Home() {
             </div>
             <div className="row mt-35">
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="/iea-accreditation">
                       <img
@@ -180,7 +185,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -248,7 +258,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -314,7 +329,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-6 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -383,7 +403,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-6 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -452,7 +477,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -521,7 +551,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -590,7 +625,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -658,7 +698,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-6 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
@@ -727,7 +772,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-6 col-sm-6">
-                <div className="card-enjoy">
+                <div
+                  className="card-enjoy"
+                  style={{
+                    border: "1px solid rgb(179, 255, 0)",
+                  }}
+                >
                   <div className="card-image">
                     <Link href="#">
                       <img
