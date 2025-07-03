@@ -8,6 +8,39 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
     key: "",
   });
 
+  const accreditationGroups = [
+    {
+      title: "Innovation & Digital Learning",
+      items: [
+        { label: "Innovation in Education (IEA)", href: "/iea-accreditation" },
+        { label: "AI & Digital Learning (AIDA)", href: "" },
+        { label: "STEAM & Robotics (SRA)", href: "" },
+      ],
+    },
+    {
+      title: "Future-Ready Education:",
+      items: [
+        { label: "Future Skills & Career Readiness (FSCA)", href: "" },
+        { label: "Leadership & Character Development (LCA)", href: "" },
+      ],
+    },
+    {
+      title: "Inclusive & Global Education:",
+      items: [
+        { label: "Multilingual Education (MEA)", href: "" },
+        { label: "Inclusive & Adaptive Learning (ILA)", href: "" },
+        { label: "Global Academic Excellence (GAE)", href: "" },
+      ],
+    },
+    {
+      title: "Safety & Sustainability:",
+      items: [
+        { label: "Cybersecurity & Digital Ethics (CDA)", href: "" },
+        { label: "Sustainable & Green Schools (SGA)", href: "" },
+      ],
+    },
+  ];
+
   const handleToggle = (key) => {
     if (isActive.key === key) {
       setIsActive({
@@ -54,12 +87,6 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
           </div>
           <div className="mobile-header-content-area">
             <div className="perfect-scroll">
-              {/* <div className="mobile-search mobile-header-border mb-30">
-                <form action="#">
-                  <input type="text" placeholder="Search for items…" />
-                  <i className="fi-rr-search" />
-                </form>
-              </div> */}
               <div
                 className="mobile-menu-wrap mobile-header-border"
                 style={{ borderBottom: "1px solid #e5e5e5" }}
@@ -73,40 +100,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                           : "has-children"
                       }
                     >
-                      {/* <span
-                        className="menu-expand"
-                        onClick={() => handleToggle(1)}
-                      >
-                        <i className="fi-rr-angle-small-down" />
-                      </span> */}
                       <Link className="active" href="/">
                         Home
                       </Link>
-                      {/* <ul
-                        className="sub-menu"
-                        style={{
-                          display: `${isActive.key == 1 ? "block" : "none"}`,
-                        }}
-                      >
-                        <li>
-                          <Link href="/">Business Solutions</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-2">Marketing App</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-3">Web Agency</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-4">Digital Agency</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-5">3D Products</Link>
-                        </li>
-                        <li>
-                          <Link href="/index-6">AI Platform</Link>
-                        </li>
-                      </ul> */}
                     </li>
                     <li>
                       <Link href="/about">About Us</Link>
@@ -132,75 +128,27 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                           display: `${isActive.key == 2 ? "block" : "none"}`,
                         }}
                       >
-                        <li>
-                          <Link href="/iea-accreditation">
-                            Innovation in Education (IEA)
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="">AI & Digital Learning (AIDA)</Link>
-                        </li>
-                        <li>
-                          <Link href="">STEAM & Robotics (SRA)</Link>
-                        </li>
-                        <li>
-                          <Link href="">
-                            Future Skills & Career Readiness (FSCA)
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="">
-                            Leadership & Character Development (LCA)
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="">Multilingual Education (MEA)</Link>
-                        </li>
-                        <li>
-                          <Link href="">Multilingual Education (MEA)</Link>
-                        </li>
-                        <li>
-                          <Link href="">Global Academic Excellence (GAE)</Link>
-                        </li>
-                        <li>
-                          <Link href="">Global Academic Excellence (GAE)</Link>
-                        </li>
-                        <li>
-                          <Link href="">Sustainable & Green Schools (SGA)</Link>
-                        </li>
+                        {accreditationGroups.map((group, idx) => (
+                          <li key={group.title}>
+                            <span style={{ fontWeight: "bold", color: "#333" }}>
+                              {group.title}
+                            </span>
+                            <ul>
+                              {group.items.map((item, j) => (
+                                <li key={item.label}>
+                                  <Link href={item.href}>{item.label}</Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        ))}
                       </ul>
                     </li>
-                    <li
-                      className={
-                        isActive.key == 3
-                          ? "has-children active"
-                          : "has-children"
-                      }
-                    >
-                      <span
-                        className="menu-expand"
-                        onClick={() => handleToggle(3)}
-                      >
-                        <i className="fi-rr-angle-small-down" />
-                      </span>
-
-                      <Link href="#">Pages</Link>
-                      <ul
-                        className="sub-menu"
-                        style={{
-                          display: `${isActive.key == 3 ? "block" : "none"}`,
-                        }}
-                      >
-                        <li>
-                          <Link href="/process">Process</Link>
-                        </li>
-                        <li>
-                          <Link href="/resources">Resources</Link>
-                        </li>
-                        <li>
-                          <Link href="">Recognition</Link>
-                        </li>
-                      </ul>
+                    <li>
+                      <Link href="/process">Process</Link>
+                    </li>
+                    <li>
+                      <Link href="/recognition">Recognition</Link>
                     </li>
                     <li
                       className={
@@ -209,71 +157,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                           : "has-children"
                       }
                     >
-                      {/* <span
-                        className="menu-expand"
-                        onClick={() => handleToggle(4)}
-                      >
-                        <i className="fi-rr-angle-small-down" />
-                      </span> */}
                       <Link href="/contact">Contact Us</Link>
-                      {/* <ul
-                        className="sub-menu"
-                        style={{
-                          display: `${isActive.key == 4 ? "block" : "none"}`,
-                        }}
-                      >
-                        <li>
-                          <Link href="/register">Register</Link>
-                        </li>
-                        <li>
-                          <Link href="/login">Sign In</Link>
-                        </li>
-                        <li>
-                          <Link href="/forget-password">Forgot password</Link>
-                        </li>
-                        <li>
-                          <Link href="/term-conditions">Terms conditions</Link>
-                        </li>
-                        <li>
-                          <Link href="/404">404 Not found</Link>
-                        </li>
-                        <li>
-                          <Link href="/change-log">Change log</Link>
-                        </li>
-                        <li>
-                          <Link href="/comming-soon">Comming soon</Link>
-                        </li>
-                      </ul> */}
                     </li>
                   </ul>
                 </nav>
               </div>
-              {/* <div className="mobile-account">
-                <h6 className="mb-10">Your Account</h6>
-                <ul className="mobile-menu font-heading">
-                  <li>
-                    <Link href="#">Profile</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Work Preferences</Link>
-                  </li>
-                  <li>
-                    <Link href="#">My Boosted Shots</Link>
-                  </li>
-                  <li>
-                    <Link href="#">My Collections</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Account Settings</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Go Pro</Link>
-                  </li>
-                  <li>
-                    <Link href="/login">Sign Out</Link>
-                  </li>
-                </ul>
-              </div> */}
               <div className="mobile-social-icon mb-50 mt-30">
                 <h6 className="mb-25">Follow Us</h6>
                 <Link className="icon-socials icon-facebook" href="#">
