@@ -91,7 +91,7 @@ export default function Header1({
                       <Link href="/service">Services</Link>
                     </li> */}
                     <li className="mega-li has-children">
-                      <Link href="#">Accreditations</Link>
+                      <Link href="/accreditations">Accreditations</Link>
                       <div className="mega-menu">
                         <div className="mega-menu-inner">
                           <div className="row">
