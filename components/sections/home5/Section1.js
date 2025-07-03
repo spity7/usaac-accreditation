@@ -46,7 +46,7 @@ export default function Section1() {
                           />
                         </svg>
                       </Link>
-                      <VideoPopup style={2} />
+                      {/* <VideoPopup style={2} /> */}
                     </div>
                   </div>
                 </div>
