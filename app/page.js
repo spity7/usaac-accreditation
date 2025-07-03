@@ -14,79 +14,6 @@ export default function Home() {
         logoWhite
       >
         <Section1 />
-        <section className="section-box box-prepared-section pb-0">
-          <div className="container">
-            <div className="row align-items-end">
-              <div className="col-lg-6 mb-30">
-                <h2 className="heading-2">
-                  Leading Quality Education Worldwide
-                </h2>
-              </div>
-              <div className="col-lg-6 mb-30">
-                <h6 className="neutral-500">
-                  Since 2010, USAAC has partnered with educational leaders
-                  worldwide to foster innovation, inclusion, and quality in
-                  learning environments.
-                </h6>
-              </div>
-            </div>
-            <div className="row mt-45">
-              {/* <div className="col-lg-4">
-                  <div className="card-feature-2 card-feature-list">
-                    <div className="card-image">
-                      <img src="/assets/imgs/page/homepage3/marketing.svg" />
-                    </div>
-                    <div className="card-info">
-                      <Link href="#">
-                        <h3 className="text-22-bold">Our philosophy</h3>
-                        <p className="text-lg neutral-500">
-                          We also know that with all our wellness initiatives,
-                          customer value and service, our doors to the
-                          community.
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
-                </div> */}
-              <div className="col-lg-6">
-                <div className="card-feature-2 card-feature-list">
-                  <div className="card-image">
-                    <img src="/assets/imgs/page/homepage3/digital.svg" />
-                  </div>
-                  <div className="card-info">
-                    <div>
-                      <h3 className="text-22-bold">Our Mission</h3>
-                      <p className="text-lg neutral-500">
-                        To elevate educational excellence globally by providing
-                        innovative, future-ready, and ethically grounded
-                        accreditation services that empower institutions to meet
-                        the evolving demands of 21st-century learning.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="card-feature-2 card-feature-list">
-                  <div className="card-image">
-                    <img src="/assets/imgs/page/homepage3/product.svg" />
-                  </div>
-                  <div className="card-info">
-                    <div>
-                      <h3 className="text-22-bold">Our Vision</h3>
-                      <p className="text-lg neutral-500">
-                        To become the world’s most trusted authority in
-                        transforming education through holistic accreditation
-                        standards that nurture innovation, inclusion, and
-                        international competitiveness.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="section-box box-enjoy">
           <div className="container">
             <div className="row align-items-end">
@@ -1502,7 +1429,7 @@ export default function Home() {
           </div>
         </section>
         <Section7 />
-        <section className="section-box box-partners box-partners-small">
+        <section className="section-box box-partners box-partners-small pt-0 pb-0">
           <div className="container-partner">
             <div
               className="carouselTicker6 carouselTicker_vertical"
@@ -1516,10 +1443,10 @@ export default function Home() {
               >
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Innovation in Education (IEA)</span>
+                    <span className="fs-4">Innovation in Education (IEA)</span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1537,10 +1464,10 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>AI & Digital Learning (AIDA)</span>
+                    <span className="fs-4">AI & Digital Learning (AIDA)</span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1558,10 +1485,10 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>STEAM & Robotics (SRA)</span>
+                    <span className="fs-4">STEAM & Robotics (SRA)</span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1579,10 +1506,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Future Skills & Career Readiness (FSCA)</span>
+                    <span className="fs-4">
+                      Future Skills & Career Readiness (FSCA)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1600,10 +1529,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Leadership & Character Development (LCA)</span>
+                    <span className="fs-4">
+                      Leadership & Character Development (LCA)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1621,10 +1552,10 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Multilingual Education (MEA)</span>
+                    <span className="fs-4">Multilingual Education (MEA)</span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1642,10 +1573,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Inclusive & Adaptive Learning (ILA)</span>
+                    <span className="fs-4">
+                      Inclusive & Adaptive Learning (ILA)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1663,10 +1596,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Global Academic Excellence (GAE)</span>
+                    <span className="fs-4">
+                      Global Academic Excellence (GAE)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1684,10 +1619,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Cybersecurity & Digital Ethics (CDA)</span>
+                    <span className="fs-4">
+                      Cybersecurity & Digital Ethics (CDA)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1705,10 +1642,12 @@ export default function Home() {
                 </li>
                 <li className="carouselTicker__item">
                   <Link href="#">
-                    <span>Sustainable & Green Schools (SGA)</span>
+                    <span className="fs-4">
+                      Sustainable & Green Schools (SGA)
+                    </span>
                     <svg
-                      width={38}
-                      height={38}
+                      width={18}
+                      height={18}
                       viewBox="0 0 38 38"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
