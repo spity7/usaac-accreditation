@@ -43,19 +43,15 @@ export default function Home() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="/iea-accreditation">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="/iea-accreditation">
-                      <h5 className="heading-5">
-                        Innovation & Digital Learning:
-                      </h5>
-                    </Link>
+                    <h5 className="heading-5">
+                      Innovation & Digital Learning:
+                    </h5>
                     <p className="text-lg">
                       Recognizing schools that foster creativity, leadership,
                       and innovative learning through cutting-edge educational
@@ -213,17 +209,13 @@ export default function Home() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">Future-Ready Education:</h5>
-                    </Link>
+                    <h5 className="heading-5">Future-Ready Education:</h5>
                     <p className="text-lg">
                       The AIDA framework provides a structured accreditation
                       system for schools transitioning toward AI-powered and
@@ -328,19 +320,13 @@ export default function Home() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">
-                        Inclusive & Global Education:
-                      </h5>
-                    </Link>
+                    <h5 className="heading-5">Inclusive & Global Education:</h5>
                     <p className="text-lg">
                       The SRA framework ensures that schools provide
                       high-quality STEAM education, preparing students for
@@ -489,17 +475,13 @@ export default function Home() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">Safety & Sustainability:</h5>
-                    </Link>
+                    <h5 className="heading-5">Safety & Sustainability:</h5>
                     <p className="text-lg">
                       The FSCA framework ensures that schools equip students
                       with future-ready skills, career preparedness, and
@@ -1106,7 +1088,7 @@ export default function Home() {
                     USAAC recognizes schools and programs based on performance
                     and impact across three levels:
                   </h4>
-                  <ul className="list-choose-plan">
+                  <ul className="list-choose-plan mt-20">
                     <div className="card-button">
                       <Link
                         className="btn btn-get-started"
