@@ -1084,7 +1084,7 @@ export default function About() {
               </div>
             </div>
           </section> */}
-          <section className="section-box box-partners box-partners-small">
+          <section className="section-box box-partners box-partners-small pt-0 pb-0">
             <div className="container-partner">
               <div
                 className="carouselTicker6 carouselTicker_vertical"
@@ -1098,10 +1098,12 @@ export default function About() {
                 >
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Innovation in Education (IEA)</span>
+                      <span className="fs-4">
+                        Innovation in Education (IEA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1119,10 +1121,10 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>AI & Digital Learning (AIDA)</span>
+                      <span className="fs-4">AI & Digital Learning (AIDA)</span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1140,10 +1142,10 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>STEAM & Robotics (SRA)</span>
+                      <span className="fs-4">STEAM & Robotics (SRA)</span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1161,10 +1163,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Future Skills & Career Readiness (FSCA)</span>
+                      <span className="fs-4">
+                        Future Skills & Career Readiness (FSCA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1182,10 +1186,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Leadership & Character Development (LCA)</span>
+                      <span className="fs-4">
+                        Leadership & Character Development (LCA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1203,10 +1209,10 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Multilingual Education (MEA)</span>
+                      <span className="fs-4">Multilingual Education (MEA)</span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1224,10 +1230,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Inclusive & Adaptive Learning (ILA)</span>
+                      <span className="fs-4">
+                        Inclusive & Adaptive Learning (ILA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1245,10 +1253,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Global Academic Excellence (GAE)</span>
+                      <span className="fs-4">
+                        Global Academic Excellence (GAE)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1266,10 +1276,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Cybersecurity & Digital Ethics (CDA)</span>
+                      <span className="fs-4">
+                        Cybersecurity & Digital Ethics (CDA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1287,10 +1299,12 @@ export default function About() {
                   </li>
                   <li className="carouselTicker__item">
                     <Link href="#">
-                      <span>Sustainable & Green Schools (SGA)</span>
+                      <span className="fs-4">
+                        Sustainable & Green Schools (SGA)
+                      </span>
                       <svg
-                        width={38}
-                        height={38}
+                        width={18}
+                        height={18}
                         viewBox="0 0 38 38"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
