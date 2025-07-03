@@ -34,7 +34,7 @@ export default function Accreditations() {
               </div>
             </div>
             <div className="row mt-35">
-              <div className="col-lg-4 col-sm-6">
+              <div className="col-lg-6 col-sm-6">
                 <div
                   className="card-enjoy"
                   style={{
@@ -42,19 +42,15 @@ export default function Accreditations() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="/iea-accreditation">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="/iea-accreditation">
-                      <h5 className="heading-5">
-                        Innovation in Education (IEA)
-                      </h5>
-                    </Link>
+                    <h5 className="heading-5">
+                      Innovation & Digital Learning:
+                    </h5>
                     <p className="text-lg">
                       Recognizing schools that foster creativity, leadership,
                       and innovative learning through cutting-edge educational
@@ -105,12 +101,106 @@ export default function Accreditations() {
                           </clipPath>
                         </defs>
                       </svg>{" "}
-                      Learn More
+                      Innovation in Education (IEA)
+                    </Link>
+                    <Link
+                      className="btn btn-learmore"
+                      href="/iea-accreditation"
+                    >
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      AI & Digital Learning (AIDA)
+                    </Link>
+                    <Link
+                      className="btn btn-learmore"
+                      href="/iea-accreditation"
+                    >
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      STEAM & Robotics (SRA)
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-sm-6">
+              <div className="col-lg-6 col-sm-6">
                 <div
                   className="card-enjoy"
                   style={{
@@ -118,19 +208,13 @@ export default function Accreditations() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">
-                        AI & Digital Learning (AIDA)
-                      </h5>
-                    </Link>
+                    <h5 className="heading-5">Future-Ready Education:</h5>
                     <p className="text-lg">
                       The AIDA framework provides a structured accreditation
                       system for schools transitioning toward AI-powered and
@@ -178,12 +262,56 @@ export default function Accreditations() {
                           </clipPath>
                         </defs>
                       </svg>{" "}
-                      Learn More
+                      Future Skills & Career Readiness (FSCA)
+                    </Link>
+                    <Link className="btn btn-learmore" href="#">
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      Leadership & Character Development (LCA)
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-sm-6">
+              <div className="col-lg-6 col-sm-6">
                 <div
                   className="card-enjoy"
                   style={{
@@ -191,17 +319,13 @@ export default function Accreditations() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">STEAM & Robotics (SRA)</h5>
-                    </Link>
+                    <h5 className="heading-5">Inclusive & Global Education:</h5>
                     <p className="text-lg">
                       The SRA framework ensures that schools provide
                       high-quality STEAM education, preparing students for
@@ -249,7 +373,95 @@ export default function Accreditations() {
                           </clipPath>
                         </defs>
                       </svg>{" "}
-                      Learn More
+                      Multilingual Education (MEA)
+                    </Link>
+                    <Link className="btn btn-learmore" href="#">
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      Inclusive & Adaptive Learning (ILA)
+                    </Link>
+                    <Link className="btn btn-learmore" href="#">
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      Global Academic Excellence (GAE)
                     </Link>
                   </div>
                 </div>
@@ -262,19 +474,13 @@ export default function Accreditations() {
                   }}
                 >
                   <div className="card-image">
-                    <Link href="#">
-                      <img
-                        src="/assets/imgs/page/homepage5/ideas.png"
-                        alt="Nivia"
-                      />
-                    </Link>
+                    <img
+                      src="/assets/imgs/page/homepage5/ideas.png"
+                      alt="Nivia"
+                    />
                   </div>
                   <div className="card-info">
-                    <Link href="#">
-                      <h5 className="heading-5">
-                        Future Skills & Career Readiness (FSCA)
-                      </h5>
-                    </Link>
+                    <h5 className="heading-5">Safety & Sustainability:</h5>
                     <p className="text-lg">
                       The FSCA framework ensures that schools equip students
                       with future-ready skills, career preparedness, and
@@ -323,12 +529,56 @@ export default function Accreditations() {
                           </clipPath>
                         </defs>
                       </svg>{" "}
-                      Learn More
+                      Cybersecurity & Digital Ethics (CDA)
+                    </Link>
+                    <Link className="btn btn-learmore" href="#">
+                      <svg
+                        width={38}
+                        height={38}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          width={38}
+                          height={38}
+                          rx={19}
+                          fill="url(#paint0_linear_15_1041)"
+                        />
+                        <g clipPath="url(#clip0_15_1041)">
+                          <path
+                            d="M23.6557 16.8139L14.72 25.7497L13.252 24.2817L22.1866 15.3459H14.3119V13.2695H25.7321V24.6897H23.6557V16.8139Z"
+                            fill="true"
+                          />
+                        </g>
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_15_1041"
+                            x1="39.3571"
+                            y1="5.62961"
+                            x2="-3.06271"
+                            y2="8.58385"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="#22D1EE" />
+                            <stop offset={1} stopColor="#C5FF41" />
+                          </linearGradient>
+                          <clipPath id="clip0_15_1041">
+                            <rect
+                              width={13}
+                              height={13}
+                              fill="white"
+                              transform="translate(13 13)"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>{" "}
+                      Sustainable & Green Schools (SGA)
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-sm-6">
+              {/* <div className="col-lg-6 col-sm-6">
                 <div
                   className="card-enjoy"
                   style={{
@@ -770,19 +1020,19 @@ export default function Accreditations() {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
-        <section className="section-box box-choose-plan pt-60">
+        <section className="section-box box-choose-plan pt-60 pb-30">
           <div className="container">
-            <div className="d-flex align-items-end justify-content-between box-head-plan mb-65">
+            <div className="d-flex align-items-end justify-content-between box-head-plan mb-30">
               <h2 className="heading-2 text-center">
                 🔹 Accreditation Levels
                 {/* <br className="d-none d-lg-block" /> That’s For You */}
               </h2>
               <div className="box-button-plan">
-                <p className="fs-6">
+                <p className="fs-5 text-center">
                   Each level includes a digital badge and certificate, plus
                   eligibility for public recognition and international
                   partnership programs.
@@ -833,47 +1083,32 @@ export default function Accreditations() {
             <div className="box-choose-plan-inner">
               <div className="box-grid-plan">
                 <div className="grid-plan-left">
-                  <h4 className="heading-4 neutral-0">
+                  <h4 className="heading-4 neutral-0 fs-4">
                     USAAC recognizes schools and programs based on performance
                     and impact across three levels:
                   </h4>
-                  {/* <ul className="list-choose-plan">
-                      <li
-                        className={activeIndex === 1 ? "active" : ""}
-                        onClick={() => handleOnClick(1)}
+                  <ul className="list-choose-plan mt-20">
+                    <div className="card-button">
+                      <Link
+                        className="btn btn-get-started"
+                        href="/accreditations"
                       >
-                        <label className="radio-container">
-                          <input
-                            className="cb-plan"
-                            type="radio"
-                            name="chooseplan"
-                            defaultChecked="checked"
+                        Get started
+                        <svg
+                          width={23}
+                          height={8}
+                          viewBox="0 0 23 8"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
+                            fill="true"
                           />
-                          <span className="checkmark" />
-                          Yearly billing
-                        </label>
-                        <span className="text-sm neutral-200">
-                          Save 25% - 30 days money back
-                        </span>
-                      </li>
-                      <li
-                        className={activeIndex === 2 ? "active" : ""}
-                        onClick={() => handleOnClick(2)}
-                      >
-                        <label className="radio-container">
-                          <input
-                            className="cb-plan"
-                            type="radio"
-                            name="chooseplan"
-                          />
-                          <span className="checkmark" />
-                          Monthly billing
-                        </label>
-                        <span className="text-sm neutral-200">
-                          Save 35% - 30 days money back
-                        </span>
-                      </li>
-                    </ul> */}
+                        </svg>
+                      </Link>
+                    </div>
+                  </ul>
                 </div>
                 <div className="grid-plan-right">
                   <div className="block-pricing">
@@ -885,12 +1120,12 @@ export default function Accreditations() {
                               <h4 className="heading-4">🟢 Standard</h4>
                               <p className="text-md neutral-600">Compliant</p>
                             </div>
-                            <div className="card-icon">
+                            {/* <div className="card-icon">
                               <img
                                 src="/assets/imgs/page/homepage5/basic.png"
                                 alt="Nivia"
                               />
-                            </div>
+                            </div> */}
                           </div>
                           <div className="card-lists">
                             <ul className="list-feature">
@@ -1037,7 +1272,7 @@ export default function Accreditations() {
                                 Upgrade anytime
                               </span>
                             </div> */}
-                          <div className="card-button">
+                          {/* <div className="card-button">
                             <Link className="btn btn-get-started" href="#">
                               Get started
                               <svg
@@ -1053,7 +1288,7 @@ export default function Accreditations() {
                                 />
                               </svg>
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                       <div className="col-lg-4 col-md-6">
@@ -1065,12 +1300,12 @@ export default function Accreditations() {
                                 Excellent Implementation
                               </p>
                             </div>
-                            <div className="card-icon">
+                            {/* <div className="card-icon">
                               <img
                                 src="/assets/imgs/page/homepage5/professional.png"
                                 alt="Nivia"
                               />
-                            </div>
+                            </div> */}
                           </div>
                           <div className="card-lists">
                             <ul className="list-feature">
@@ -1219,7 +1454,7 @@ export default function Accreditations() {
                                 </span>
                               </div>
                             </div> */}
-                          <div className="card-button">
+                          {/* <div className="card-button">
                             <Link className="btn btn-get-started" href="#">
                               Get started
                               <svg
@@ -1235,7 +1470,7 @@ export default function Accreditations() {
                                 />
                               </svg>
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                       <div className="col-lg-4 col-md-6">
@@ -1247,12 +1482,12 @@ export default function Accreditations() {
                                 Global Leader
                               </p>
                             </div>
-                            <div className="card-icon">
+                            {/* <div className="card-icon">
                               <img
                                 src="/assets/imgs/page/homepage5/enterprise.png"
                                 alt="Nivia"
                               />
-                            </div>
+                            </div> */}
                           </div>
                           <div className="card-lists">
                             <ul className="list-feature">
@@ -1401,7 +1636,7 @@ export default function Accreditations() {
                                 </span>
                               </div>
                             </div> */}
-                          <div className="card-button">
+                          {/* <div className="card-button">
                             <Link className="btn btn-get-started" href="#">
                               Get started
                               <svg
@@ -1417,7 +1652,7 @@ export default function Accreditations() {
                                 />
                               </svg>
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
