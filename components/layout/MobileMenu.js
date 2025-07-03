@@ -121,7 +121,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                         <i className="fi-rr-angle-small-down" />
                       </span>
 
-                      <Link href="#">Accreditations</Link>
+                      <Link href="/accreditations">Accreditations</Link>
                       <ul
                         className="sub-menu"
                         style={{
