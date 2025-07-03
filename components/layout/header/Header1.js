@@ -307,22 +307,11 @@ export default function Header1({
                         </div>
                       </div>
                     </li>
-                    <li className="has-children">
-                      <Link href="#">Pages</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link href="/process">Process</Link>
-                        </li>
-                        <li>
-                          <Link href="/resources">Resources</Link>
-                        </li>
-                        <li>
-                          <Link href="#">Recognition</Link>
-                        </li>
-                      </ul>
+                    <li className="">
+                      <Link href="/process">Process</Link>
                     </li>
                     <li className="">
-                      <Link href="/contact">Contact</Link>
+                      <Link href="/#">Recognition</Link>
                     </li>
                   </ul>
                 </nav>
@@ -330,8 +319,8 @@ export default function Header1({
             </div>
             <div className="header-right">
               {/* <SearchForm /> */}
-              <Link className="btn btn-brand-4-medium hover-up" href="#">
-                Get Started
+              <Link className="btn btn-brand-4-medium hover-up" href="/contact">
+                Contact Us
                 <svg
                   width={22}
                   height={22}

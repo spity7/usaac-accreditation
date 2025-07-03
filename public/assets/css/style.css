@@ -3128,8 +3128,8 @@ label {
   margin-right: 50px;
 }
 .header .main-header .header-right {
-  width: 30%;
-  min-width: 245px;
+  /* width: 30%; */
+  min-width: 190px;
   text-align: right;
   display: flex;
   align-items: center;
