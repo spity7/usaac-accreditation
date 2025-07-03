@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Resources() {
+export default function Recognition() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,

@@ -276,15 +276,15 @@ export default function Process() {
               </div>
             </div>
           </section>
-          <section className="section-box box-choose-plan pb-10">
+          <section className="section-box box-choose-plan pb-0">
             <div className="container">
-              <div className="d-flex align-items-end justify-content-between box-head-plan mb-65">
+              <div className="d-flex align-items-end justify-content-between box-head-plan mb-30">
                 <h2 className="heading-2 text-center">
                   🔹 Accreditation Levels
                   {/* <br className="d-none d-lg-block" /> That’s For You */}
                 </h2>
                 <div className="box-button-plan">
-                  <p className="fs-6">
+                  <p className="fs-5 text-center">
                     Each level includes a digital badge and certificate, plus
                     eligibility for public recognition and international
                     partnership programs.
@@ -335,47 +335,32 @@ export default function Process() {
               <div className="box-choose-plan-inner">
                 <div className="box-grid-plan">
                   <div className="grid-plan-left">
-                    <h4 className="heading-4 neutral-0">
+                    <h4 className="heading-4 neutral-0 fs-4">
                       USAAC recognizes schools and programs based on performance
                       and impact across three levels:
                     </h4>
-                    {/* <ul className="list-choose-plan">
-                      <li
-                        className={activeIndex === 1 ? "active" : ""}
-                        onClick={() => handleOnClick(1)}
-                      >
-                        <label className="radio-container">
-                          <input
-                            className="cb-plan"
-                            type="radio"
-                            name="chooseplan"
-                            defaultChecked="checked"
-                          />
-                          <span className="checkmark" />
-                          Yearly billing
-                        </label>
-                        <span className="text-sm neutral-200">
-                          Save 25% - 30 days money back
-                        </span>
-                      </li>
-                      <li
-                        className={activeIndex === 2 ? "active" : ""}
-                        onClick={() => handleOnClick(2)}
-                      >
-                        <label className="radio-container">
-                          <input
-                            className="cb-plan"
-                            type="radio"
-                            name="chooseplan"
-                          />
-                          <span className="checkmark" />
-                          Monthly billing
-                        </label>
-                        <span className="text-sm neutral-200">
-                          Save 35% - 30 days money back
-                        </span>
-                      </li>
-                    </ul> */}
+                    <ul className="list-choose-plan mt-20">
+                      <div className="card-button">
+                        <Link
+                          className="btn btn-get-started"
+                          href="/accreditations"
+                        >
+                          Get started
+                          <svg
+                            width={23}
+                            height={8}
+                            viewBox="0 0 23 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
+                              fill="true"
+                            />
+                          </svg>
+                        </Link>
+                      </div>
+                    </ul>
                   </div>
                   <div className="grid-plan-right">
                     <div className="block-pricing">
@@ -387,12 +372,12 @@ export default function Process() {
                                 <h4 className="heading-4">🟢 Standard</h4>
                                 <p className="text-md neutral-600">Compliant</p>
                               </div>
-                              <div className="card-icon">
-                                <img
-                                  src="/assets/imgs/page/homepage5/basic.png"
-                                  alt="Nivia"
-                                />
-                              </div>
+                              {/* <div className="card-icon">
+                              <img
+                                src="/assets/imgs/page/homepage5/basic.png"
+                                alt="Nivia"
+                              />
+                            </div> */}
                             </div>
                             <div className="card-lists">
                               <ul className="list-feature">
@@ -539,23 +524,23 @@ export default function Process() {
                                 Upgrade anytime
                               </span>
                             </div> */}
-                            <div className="card-button">
-                              <Link className="btn btn-get-started" href="#">
-                                Get started
-                                <svg
-                                  width={23}
-                                  height={8}
-                                  viewBox="0 0 23 8"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
-                                    fill="true"
-                                  />
-                                </svg>
-                              </Link>
-                            </div>
+                            {/* <div className="card-button">
+                            <Link className="btn btn-get-started" href="#">
+                              Get started
+                              <svg
+                                width={23}
+                                height={8}
+                                viewBox="0 0 23 8"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
+                                  fill="true"
+                                />
+                              </svg>
+                            </Link>
+                          </div> */}
                           </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -567,12 +552,12 @@ export default function Process() {
                                   Excellent Implementation
                                 </p>
                               </div>
-                              <div className="card-icon">
-                                <img
-                                  src="/assets/imgs/page/homepage5/professional.png"
-                                  alt="Nivia"
-                                />
-                              </div>
+                              {/* <div className="card-icon">
+                              <img
+                                src="/assets/imgs/page/homepage5/professional.png"
+                                alt="Nivia"
+                              />
+                            </div> */}
                             </div>
                             <div className="card-lists">
                               <ul className="list-feature">
@@ -721,23 +706,23 @@ export default function Process() {
                                 </span>
                               </div>
                             </div> */}
-                            <div className="card-button">
-                              <Link className="btn btn-get-started" href="#">
-                                Get started
-                                <svg
-                                  width={23}
-                                  height={8}
-                                  viewBox="0 0 23 8"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
-                                    fill="true"
-                                  />
-                                </svg>
-                              </Link>
-                            </div>
+                            {/* <div className="card-button">
+                            <Link className="btn btn-get-started" href="#">
+                              Get started
+                              <svg
+                                width={23}
+                                height={8}
+                                viewBox="0 0 23 8"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
+                                  fill="true"
+                                />
+                              </svg>
+                            </Link>
+                          </div> */}
                           </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -749,12 +734,12 @@ export default function Process() {
                                   Global Leader
                                 </p>
                               </div>
-                              <div className="card-icon">
-                                <img
-                                  src="/assets/imgs/page/homepage5/enterprise.png"
-                                  alt="Nivia"
-                                />
-                              </div>
+                              {/* <div className="card-icon">
+                              <img
+                                src="/assets/imgs/page/homepage5/enterprise.png"
+                                alt="Nivia"
+                              />
+                            </div> */}
                             </div>
                             <div className="card-lists">
                               <ul className="list-feature">
@@ -903,23 +888,23 @@ export default function Process() {
                                 </span>
                               </div>
                             </div> */}
-                            <div className="card-button">
-                              <Link className="btn btn-get-started" href="#">
-                                Get started
-                                <svg
-                                  width={23}
-                                  height={8}
-                                  viewBox="0 0 23 8"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
-                                    fill="true"
-                                  />
-                                </svg>
-                              </Link>
-                            </div>
+                            {/* <div className="card-button">
+                            <Link className="btn btn-get-started" href="#">
+                              Get started
+                              <svg
+                                width={23}
+                                height={8}
+                                viewBox="0 0 23 8"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
+                                  fill="true"
+                                />
+                              </svg>
+                            </Link>
+                          </div> */}
                           </div>
                         </div>
                       </div>
