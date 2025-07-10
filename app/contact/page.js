@@ -1,8 +1,94 @@
+"use client";
+import { useState } from "react";
+import axios from "axios";
 import LogoTicker from "@/components/elements/LogoTicker";
 import Layout from "@/components/layout/Layout";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
+
 export default function Contact() {
+  const [form, setForm] = useState({
+    institution: "",
+    countryCity: "",
+    contactPerson: "",
+    email: "",
+    phone: "",
+    accreditationType: "",
+    institutionLevel: [],
+    readiness: "",
+    message: "",
+  });
+  const [submitting, setSubmitting] = useState(false);
+  const [result, setResult] = useState(null);
+
+  function handleChange(e) {
+    const { name, value, type, checked } = e.target;
+    if (type === "checkbox") {
+      setForm((prev) => {
+        let levels = prev.institutionLevel;
+        if (checked) {
+          levels = [...levels, value];
+        } else {
+          levels = levels.filter((v) => v !== value);
+        }
+        return { ...prev, institutionLevel: levels };
+      });
+    } else {
+      setForm((prev) => ({ ...prev, [name]: value }));
+    }
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setSubmitting(true);
+    setResult(null);
+
+    // Compose message for backend
+    const message = `
+Institution Name: ${form.institution}
+Country & City: ${form.countryCity}
+Contact Person: ${form.contactPerson}
+Phone: ${form.phone}
+Type of Accreditation Interested In: ${form.accreditationType}
+Institution Level: ${form.institutionLevel.join(", ")}
+Accreditation Readiness: ${form.readiness}
+
+Message:
+${form.message}
+    `.trim();
+
+    const payload = {
+      name: form.institution,
+      email: form.email,
+      message,
+    };
+
+    try {
+      const res = await axios.post("/api/contact", payload, {
+        headers: { "Content-Type": "application/json" },
+      });
+      const data = res.data;
+      setResult({ type: "success", msg: data.success });
+      setForm({
+        institution: "",
+        countryCity: "",
+        contactPerson: "",
+        email: "",
+        phone: "",
+        accreditationType: "",
+        institutionLevel: [],
+        readiness: "",
+        message: "",
+      });
+    } catch (err) {
+      setResult({
+        type: "error",
+        msg: err.response?.data?.error || "Submission failed.",
+      });
+    }
+    setSubmitting(false);
+  }
+
   return (
     <>
       <Layout
@@ -166,16 +252,16 @@ export default function Contact() {
                           </div>
                           <div className="card-info">
                             <h3 className="text-22-bold">
-                              3. Billing & Payments
+                              5. Get Support
                             </h3>
                             <div className="text-md neutral-700">
                               <div className="row">
                                 <div className="col-sm-12">
                                   <Link
                                     className="neutral-700"
-                                    href="/mailto:sale@nivia.com"
+                                    href="mailto:support@usaac.us"
                                   >
-                                    support@usaac.org
+                                    support@usaac.us
                                   </Link>
                                 </div>
                               </div>
@@ -223,14 +309,17 @@ export default function Contact() {
                     form is the first step in starting your journey with USAAC.
                   </p>
                   <div className="block-form-contact mt-45">
-                    <form action="#">
+                    <form onSubmit={handleSubmit}>
                       <div className="form-group">
                         <label htmlFor="fullname">Institution Name *</label>
                         <input
                           className="form-control"
                           type="text"
+                          name="institution"
                           placeholder="Institution Name"
                           required
+                          value={form.institution}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="form-group">
@@ -238,8 +327,11 @@ export default function Contact() {
                         <input
                           className="form-control"
                           type="text"
+                          name="countryCity"
                           placeholder="Country & City"
                           required
+                          value={form.countryCity}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="form-group">
@@ -247,8 +339,11 @@ export default function Contact() {
                         <input
                           className="form-control"
                           type="text"
+                          name="contactPerson"
                           placeholder="John Doe, Student"
                           required
+                          value={form.contactPerson}
+                          onChange={handleChange}
                         />
                       </div>
 
@@ -257,8 +352,11 @@ export default function Contact() {
                         <input
                           className="form-control"
                           type="email"
+                          name="email"
                           placeholder="email@website.com"
                           required
+                          value={form.email}
+                          onChange={handleChange}
                         />
                       </div>
 
@@ -267,24 +365,33 @@ export default function Contact() {
                         <input
                           className="form-control"
                           type="tel"
+                          name="phone"
                           placeholder="+1 234 567 8901"
                           required
+                          value={form.phone}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="form-group">
                         <label>Type of Accreditation Interested In *</label>
-                        <select className="form-control" required>
+                        <select
+                          className="form-control"
+                          name="accreditationType"
+                          required
+                          value={form.accreditationType}
+                          onChange={handleChange}
+                        >
                           <option value="">Select one</option>
-                          <option>K–12 Accreditation</option>
-                          <option>Higher Education Accreditation</option>
-                          <option>Vocational Training Accreditation</option>
-                          <option>Online Learning Programs</option>
-                          <option>International School Accreditation</option>
-                          <option>STEM Programs</option>
-                          <option>Bilingual/Multilingual Programs</option>
-                          <option>Special Education Programs</option>
-                          <option>Faith-Based Institutions</option>
-                          <option>Other</option>
+                          <option>Innovation in Education</option>
+                          <option>AI & Digital Learning</option>
+                          <option>STEAM & Robotics</option>
+                          <option>Future Skills & Career Readiness</option>
+                          <option>Leadership & Character Development</option>
+                          <option>Multilingual Education</option>
+                          <option>Inclusive & Adaptive Learning</option>
+                          <option>Global Academic Excellence</option>
+                          <option>Cybersecurity & Digital Ethics</option>
+                          <option>Sustainable & Green Schools</option>
                         </select>
                       </div>
                       <div className="form-group">
@@ -295,6 +402,8 @@ export default function Contact() {
                               type="checkbox"
                               name="level"
                               value="K–12"
+                              checked={form.institutionLevel.includes("K–12")}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             K–12
@@ -305,6 +414,10 @@ export default function Contact() {
                               type="checkbox"
                               name="level"
                               value="Higher Ed"
+                              checked={form.institutionLevel.includes(
+                                "Higher Ed"
+                              )}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Higher Ed
@@ -315,6 +428,10 @@ export default function Contact() {
                               type="checkbox"
                               name="level"
                               value="Vocational"
+                              checked={form.institutionLevel.includes(
+                                "Vocational"
+                              )}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Vocational
@@ -325,6 +442,8 @@ export default function Contact() {
                               type="checkbox"
                               name="level"
                               value="Other"
+                              checked={form.institutionLevel.includes("Other")}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Other
@@ -339,6 +458,8 @@ export default function Contact() {
                               type="radio"
                               name="readiness"
                               value="Exploring"
+                              checked={form.readiness === "Exploring"}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Just exploring
@@ -349,6 +470,8 @@ export default function Contact() {
                               type="radio"
                               name="readiness"
                               value="Ready to apply"
+                              checked={form.readiness === "Ready to apply"}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Ready to apply
@@ -359,6 +482,8 @@ export default function Contact() {
                               type="radio"
                               name="readiness"
                               value="Seeking expansion"
+                              checked={form.readiness === "Seeking expansion"}
+                              onChange={handleChange}
                               style={{ height: "auto", width: "auto" }}
                             />{" "}
                             Already accredited, seeking expansion
@@ -370,8 +495,11 @@ export default function Contact() {
                         <textarea
                           className="form-control"
                           rows={5}
+                          name="message"
                           placeholder="How can we help you?"
                           required
+                          value={form.message}
+                          onChange={handleChange}
                         ></textarea>
                       </div>
 
@@ -380,12 +508,26 @@ export default function Contact() {
                         You’ll receive a follow-up email with next steps.
                       </p>
 
+                      {result && (
+                        <div
+                          className={`alert ${
+                            result.type === "success"
+                              ? "alert-success"
+                              : "alert-danger"
+                          }`}
+                          style={{ marginBottom: 20 }}
+                        >
+                          {result.msg}
+                        </div>
+                      )}
+
                       <div className="form-group">
                         <button
                           className="btn btn-black btn-rounded"
                           type="submit"
+                          disabled={submitting}
                         >
-                          Send Message
+                          {submitting ? "Sending..." : "Send Message"}
                           <svg
                             width={22}
                             height={8}
