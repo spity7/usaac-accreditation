@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import VideoPopup from "@/components/elements/VideoPopup";
 
-export default function Iea() {
+export default function Aida() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -28,9 +28,9 @@ export default function Iea() {
                   USAAC
                 </Link>
                 <h1 className="display-2 mb-40 mt-15 neutral-0">
-                  📌 Innovation in Education
+                  📌 AI & Digital Learning
                   <br />
-                  (IEA)
+                  (AIDA)
                 </h1>
                 <div className="box-buttons justify-content-center">
                   <Link
@@ -72,9 +72,11 @@ export default function Iea() {
               </h2>
               <div className="box-button-plan">
                 <p className="fs-5 text-center">
-                  Edvisors’ IEA Accreditation is structured into three levels,
-                  ensuring schools progressively enhance their innovation-driven
-                  education strategies.
+                  The AIDA framework provides a structured accreditation system
+                  for schools transitioning toward AI-powered and digitally
+                  enhanced learning environments. It ensures quality,
+                  innovation, and sustainability in AI and digital education
+                  practices.
                 </p>
                 <div className="box-buttons-feature-4">
                   {/* <Link className="btn btn-black" href="#">
@@ -1041,50 +1043,6 @@ export default function Iea() {
                                   </defs>
                                 </svg>{" "}
                                 Student-Led Social Enterprises
-                              </li>
-                              <li>
-                                <svg
-                                  width={26}
-                                  height={26}
-                                  viewBox="0 0 26 26"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clipPath="url(#clip0_15_115)">
-                                    <path
-                                      d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
-                                      fill="url(#paint0_linear_15_115)"
-                                    />
-                                    <path
-                                      d="M7.11719 13.8396L10.479 17.2014L18.8835 8.79688"
-                                      stroke="#191919"
-                                      strokeWidth={2}
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <linearGradient
-                                      id="paint0_linear_15_115"
-                                      x1="26.9286"
-                                      y1="3.85184"
-                                      x2="-2.09554"
-                                      y2="5.87316"
-                                      gradientUnits="userSpaceOnUse"
-                                    >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
-                                    </linearGradient>
-                                    <clipPath id="clip0_15_115">
-                                      <rect
-                                        width={26}
-                                        height={26}
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>{" "}
-                                Recognized innovation Model
                               </li>
                             </ul>
                           </div>

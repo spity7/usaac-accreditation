@@ -132,6 +132,8 @@ export default function IeaQuestions() {
                 <ol start={sIdx * 10 + 1} style={{ paddingLeft: 24 }}>
                   {section.questions.map((q, qIdx) => {
                     const idx = questionIndex++;
+                    // Check if question starts with Does, Is, Do, Are (case-insensitive)
+                    const showRadio = /^(Does|Is|Do|Are)\b/i.test(q.trim());
                     return (
                       <li key={q} style={{ marginBottom: 24 }}>
                         <div style={{ fontWeight: 500, marginBottom: 8 }}>
@@ -145,56 +147,62 @@ export default function IeaQuestions() {
                             alignItems: "center",
                           }}
                         >
-                          <div>
-                            <label>
-                              <input
-                                type="radio"
-                                name={`answer-${idx}`}
-                                value="yes"
-                                required
-                                checked={form[idx].answer === "yes"}
-                                onChange={() =>
-                                  handleChange(idx, "answer", "yes")
-                                }
-                              />{" "}
-                              Yes
-                            </label>
-                            <label style={{ marginLeft: 12 }}>
-                              <input
-                                type="radio"
-                                name={`answer-${idx}`}
-                                value="no"
-                                required
-                                checked={form[idx].answer === "no"}
-                                onChange={() =>
-                                  handleChange(idx, "answer", "no")
-                                }
-                              />{" "}
-                              No
-                            </label>
-                          </div>
-                          <div style={{ flex: 1, minWidth: 180 }}>
-                            <textarea
-                              placeholder="Add a note (optional)"
-                              value={form[idx].note}
-                              onChange={(e) =>
-                                handleChange(idx, "note", e.target.value)
-                              }
-                              style={{
-                                width: "100%",
-                                minHeight: 32,
-                                resize: "vertical",
-                              }}
-                            />
-                          </div>
-                          <div>
-                            <input
-                              type="file"
-                              onChange={(e) =>
-                                handleFileChange(idx, e.target.files[0])
-                              }
-                            />
-                          </div>
+                          {showRadio ? (
+                            <div>
+                              <label>
+                                <input
+                                  type="radio"
+                                  name={`answer-${idx}`}
+                                  value="yes"
+                                  required
+                                  checked={form[idx].answer === "yes"}
+                                  onChange={() =>
+                                    handleChange(idx, "answer", "yes")
+                                  }
+                                />{" "}
+                                Yes
+                              </label>
+                              <label style={{ marginLeft: 12 }}>
+                                <input
+                                  type="radio"
+                                  name={`answer-${idx}`}
+                                  value="no"
+                                  required
+                                  checked={form[idx].answer === "no"}
+                                  onChange={() =>
+                                    handleChange(idx, "answer", "no")
+                                  }
+                                />{" "}
+                                No
+                              </label>
+                            </div>
+                          ) : (
+                            <>
+                              <div style={{ flex: 1, minWidth: 180 }}>
+                                <textarea
+                                  placeholder="Add a note (required)"
+                                  value={form[idx].note}
+                                  required
+                                  onChange={(e) =>
+                                    handleChange(idx, "note", e.target.value)
+                                  }
+                                  style={{
+                                    width: "100%",
+                                    minHeight: 32,
+                                    resize: "vertical",
+                                  }}
+                                />
+                              </div>
+                              <div>
+                                <input
+                                  type="file"
+                                  onChange={(e) =>
+                                    handleFileChange(idx, e.target.files[0])
+                                  }
+                                />
+                              </div>
+                            </>
+                          )}
                         </div>
                       </li>
                     );

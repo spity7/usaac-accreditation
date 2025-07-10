@@ -184,7 +184,7 @@ export default function Process() {
                       <p className="text-md neutral-600">
                         Institutions are supported through interim reviews,
                         continuous improvement plans, and professional learning
-                        opportunities. Accreditation is valid for five years.
+                        opportunities. Accreditation is valid for One year.
                       </p>
                     </div>
                   </div>
@@ -1217,7 +1217,7 @@ export default function Process() {
                           <span>4</span>
                         </div>
                         <div className="step-info">
-                          <h3>Step 4: Peer Review Visit</h3>
+                          <h3>Step 4: Peer Review</h3>
                           <p className="text-lg">
                             <b className="fw-bold">Estimated Duration:</b> 1
                             week
@@ -1232,7 +1232,7 @@ export default function Process() {
                           <h3>Step 5: Accreditation Decision</h3>
                           <p className="text-lg">
                             <b className="fw-bold">Estimated Duration:</b> 2–3
-                            weeks post-visit
+                            weeks
                           </p>
                         </div>
                       </div>
