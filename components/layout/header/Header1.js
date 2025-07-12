@@ -106,7 +106,7 @@ export default function Header1({
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link href="">
+                                      <Link href="/aida-accreditation">
                                         AI & Digital Learning (AIDA)
                                       </Link>
                                     </li>

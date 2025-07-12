@@ -13,7 +13,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
       title: "Innovation & Digital Learning",
       items: [
         { label: "Innovation in Education (IEA)", href: "/iea-accreditation" },
-        { label: "AI & Digital Learning (AIDA)", href: "" },
+        { label: "AI & Digital Learning (AIDA)", href: "/aida-accreditation" },
         { label: "STEAM & Robotics (SRA)", href: "" },
       ],
     },

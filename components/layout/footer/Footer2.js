@@ -59,7 +59,7 @@ export default function Footer2() {
                   <a href="/iea-accreditation">Innovation in Education (IEA)</a>
                 </li>
                 <li>
-                  <a href="">AI & Digital Learning (AIDA)</a>
+                  <a href="/aida-accreditation">AI & Digital Learning (AIDA)</a>
                 </li>
                 <li>
                   <a href="">STEAM & Robotics (SRA)</a>
