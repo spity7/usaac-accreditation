@@ -308,6 +308,9 @@ export default function Header1({
                       </div>
                     </li>
                     <li className="">
+                      <Link href="/certification">Certification</Link>
+                    </li>
+                    <li className="">
                       <Link href="/process">Process</Link>
                     </li>
                     <li className="">

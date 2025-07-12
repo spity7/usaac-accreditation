@@ -3125,7 +3125,7 @@ label {
   justify-content: space-between;
 }
 .header .main-header .header-left .header-logo {
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .header .main-header .header-right {
   /* width: 30%; */
@@ -8992,7 +8992,7 @@ a.icon-socials:hover {
     display: block;
   }
   .header .main-menu li {
-    padding: 0px 10px;
+    padding: 0px 1px;
   }
   .banner-hero.hero-1 .banner-inner {
     background-position: right 20px center;

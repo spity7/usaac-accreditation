@@ -145,6 +145,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                       </ul>
                     </li>
                     <li>
+                      <Link href="/certification">Certification</Link>
+                    </li>
+                    <li>
                       <Link href="/process">Process</Link>
                     </li>
                     <li>
