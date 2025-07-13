@@ -1254,7 +1254,7 @@ export default function Iea() {
             </div>
           </div>
         </section>
-        <section className="section-box wow animate__animated animate__fadeIn box-our-features-5 pt-60">
+        <section className="section-box wow animate__animated animate__fadeIn box-our-features-5 pt-60 pb-80">
           <div className="container">
             <div className="text-center mb-70">
               <Link className="btn btn-brand-5" href="#">
@@ -1368,6 +1368,27 @@ export default function Iea() {
                 </Link>
               </p>
             </div> */}
+          </div>
+          <div className="box-buttons justify-content-center mt-40">
+            <Link
+              className="btn btn-brand-4-medium mr-15 hover-up"
+              href="/iea-questions"
+            >
+              Apply Now
+              <svg
+                width={22}
+                height={22}
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z"
+                  fill="true"
+                />
+              </svg>
+            </Link>
+            {/* <VideoPopup /> */}
           </div>
         </section>
       </Layout>
