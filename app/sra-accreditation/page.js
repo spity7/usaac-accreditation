@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import VideoPopup from "@/components/elements/VideoPopup";
 
-export default function Aida() {
+export default function Sra() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -28,14 +28,14 @@ export default function Aida() {
                   USAAC
                 </Link>
                 <h1 className="display-2 mb-40 mt-15 neutral-0">
-                  📌 AI & Digital Learning
+                  📌 STEAM & Robotics Accreditation
                   <br />
-                  (AIDA)
+                  (SRA)
                 </h1>
                 <div className="box-buttons justify-content-center">
                   <Link
                     className="btn btn-brand-4-medium mr-15 hover-up"
-                    href="/aida-questions"
+                    href="/sra-questions"
                   >
                     Apply Now
                     <svg
@@ -72,9 +72,9 @@ export default function Aida() {
               </h2>
               <div className="box-button-plan">
                 <p className="fs-5 text-center">
-                  AIDA Accreditation is structured into three levels, guiding
-                  schools to progressively enhance AI and digital learning
-                  strategies.
+                  The SRA framework ensures that schools provide high-quality
+                  STEAM education, preparing students for future careers in
+                  technology, engineering, and innovation.
                 </p>
                 <div className="box-buttons-feature-4">
                   {/* <Link className="btn btn-black" href="#">
@@ -223,7 +223,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Uses digital platforms like LMS and e-books.
+                                Core STEM subjects integrated into the
+                                curriculum.
                               </li>
                               <li>
                                 <svg
@@ -267,7 +268,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Introduces basic AI tools such as chatbots.
+                                Basic robotics and coding introduced in lower
+                                grades.{" "}
                               </li>
                               <li>
                                 <svg
@@ -311,7 +313,7 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Teachers trained to use EdTech effectively..
+                                Use of digital tools and simulation software.
                               </li>
                               <li>
                                 <svg
@@ -355,7 +357,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Cybersecurity awareness taught to students.
+                                Hands-on experiments in science and engineering
+                                classes.
                               </li>
                               {/* <li>
                                 <svg
@@ -503,8 +506,8 @@ export default function Aida() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              💡 Basic integration of digital learning tools and
-                              AI applications.
+                              💡 Provides a foundational STEM and robotics
+                              curriculum.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -587,8 +590,7 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI personalizes lessons using real-time
-                                analytics.
+                                AI and machine learning basics introduced.
                               </li>
                               <li>
                                 <svg
@@ -632,8 +634,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI tutors and chatbots assist students
-                                effectively.
+                                Students participate in national robotics
+                                competitions.
                               </li>
                               <li>
                                 <svg
@@ -677,8 +679,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Cybersecurity policies and safety protocols
-                                enforced.
+                                Lab-based experimentation and project-based
+                                learning.
                               </li>
                               <li>
                                 <svg
@@ -722,7 +724,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Hybrid learning models adopted across schools.
+                                Industry partnerships for mentorship and
+                                training.
                               </li>
                               {/* <li>
                                 <svg
@@ -782,8 +785,8 @@ export default function Aida() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🚀 AI-powered learning, cybersecurity measures,
-                              and blended learning models.
+                              🚀 Expands into AI, coding competitions, and
+                              lab-based learning.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -866,7 +869,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Fully AI-driven education with AR/VR tools.
+                                Fully immersive STEAM innovation labs with
+                                advanced technology.
                               </li>
                               <li>
                                 <svg
@@ -910,7 +914,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI-based cybersecurity detects advanced threats.
+                                Students engage in real-world problem-solving
+                                using robotics and AI.
                               </li>
                               <li>
                                 <svg
@@ -954,7 +959,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI integrated curriculum includes robotics.
+                                Collaboration with universities and research
+                                institutions.
                               </li>
                               <li>
                                 <svg
@@ -998,7 +1004,8 @@ export default function Aida() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Schools enforce strict ethics for AI use.
+                                Global recognition in STEAM competitions,
+                                patents, and publications
                               </li>
                               {/* <li>
                                 <svg
@@ -1102,8 +1109,8 @@ export default function Aida() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🏆 Pioneers AI-driven education with cutting-edge
-                              tech infrastructure.
+                              🏆 Recognized as a global leader in STEAM
+                              education and research.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -1136,7 +1143,7 @@ export default function Aida() {
           <div className="container">
             <div className="text-center">
               <h2 className="neutral-0 mb-20">
-                🔹 AIDA Accreditation Pillars
+                🔹 SRA Accreditation Pillars
                 {/* <br className="d-none d-lg-block" />
                 We Provide Truly Prominent IT Solutions */}
               </h2>
@@ -1187,19 +1194,19 @@ export default function Aida() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        1️⃣ Leadership & Governance
+                        1️⃣ Leadership & Institutional Commitment
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • School leadership has a digital transformation strategy
-                      aligned with educational goals.
+                      • STEAM & Robotics education integrated into the school’s
+                      vision.
                     </p>
                     <p className="text-md neutral-700">
-                      • AI policies ensure ethical, fair, and inclusive
-                      education.
+                      • School-wide commitment to innovation and technology.
                     </p>
                     <p className="text-md neutral-700">
-                      • Compliance with national and international AI & digital
+                      • Partnerships with universities, tech companies, and STEM
+                      organizations.
                     </p>
                   </div>
                 </div>
@@ -1223,18 +1230,18 @@ export default function Aida() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        2️⃣ Curriculum & Teaching Excellence
+                        2️⃣ Curriculum & Learning Models
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • AI-integrated curriculum development.
+                      • Hands-on project-based learning (PBL) in science and
+                      technology.
                     </p>
                     <p className="text-md neutral-700">
-                      • Teacher training & AI literacy programs.
+                      • Robotics programming and AI integration in coursework.
                     </p>
                     <p className="text-md neutral-700">
-                      • Project-based & experiential AI learning (robotics,
-                      coding, ML applications).
+                      • Engineering design challenges and competitions.
                     </p>
                   </div>
                 </div>
@@ -1282,18 +1289,19 @@ export default function Aida() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        3️⃣ AI & EdTech Infrastructure
+                        3️⃣ Faculty Development & Training
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Implementation of AI-powered learning platforms.
+                      • STEM-certified educators with robotics and AI expertise.
                     </p>
                     <p className="text-md neutral-700">
-                      • Access to high-speed internet, cloud computing, and
-                      smart classrooms.
+                      • Continuous professional development for teachers in
+                      STEAM pedagogy.
                     </p>
                     <p className="text-md neutral-700">
-                      • Cybersecurity & data privacy compliance.
+                      • Educator exchange programs with leading STEAM
+                      institutions.
                     </p>
                   </div>
                 </div>
@@ -1329,23 +1337,23 @@ export default function Aida() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        4️⃣ Student Learning Experience & Inclusion
+                        4️⃣ Student Engagement & Global Exposure
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • AI personalization for diverse learning needs.
+                      • Participation in national and international STEM &
+                      robotics competitions.
                     </p>
                     <p className="text-md neutral-700">
-                      • Assistive AI technologies for students with
-                      disabilities.
+                      • Real-world problem-solving projects and hackathons.
                     </p>
                     <p className="text-md neutral-700">
-                      • Digital citizenship & AI ethics education.
+                      • Industry-led mentorship and internship programs.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-12 col-md-12">
+              <div className="col-lg-6 col-md-6">
                 <div className="card-preparing-2">
                   <Link className="card-image" href="#">
                     <svg
@@ -1372,24 +1380,23 @@ export default function Aida() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        5️⃣ Continuous Evaluation & Improvement
+                        5️⃣ Facilities & Technological Infrastructure
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • AI-driven learning analytics for performance tracking.
+                      • Advanced STEAM labs with robotics kits, AI tools, and 3D
+                      printing.
                     </p>
                     <p className="text-md neutral-700">
-                      • Accreditation review cycles to ensure long-term
-                      sustainability.
+                      • Use of AR/VR for immersive STEM learning experiences.
                     </p>
                     <p className="text-md neutral-700">
-                      • Schools share best practices & innovations in AI-powered
-                      education.
+                      • Cybersecurity and ethical AI integration in learning.
                     </p>
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-4 col-md-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="card-preparing-2">
                   <Link className="card-image" href="#">
                     <svg
@@ -1400,36 +1407,39 @@ export default function Aida() {
                       fill="none"
                     >
                       <path
-                        d="M9.41361 6.13493C11.5715 4.8998 14.0147 4.25004 16.5011 4.25004C18.9875 4.25004 21.4307 4.8998 23.5886 6.13493C23.6648 6.17812 23.751 6.20054 23.8386 6.19993C23.9485 6.19974 24.0553 6.16334 24.1424 6.09636C24.2296 6.02938 24.2922 5.93556 24.3207 5.82941C24.3491 5.72325 24.3418 5.61068 24.2999 5.50909C24.2579 5.40751 24.1837 5.32258 24.0886 5.26743C21.7793 3.94546 19.1646 3.25 16.5036 3.25C13.8427 3.25 11.2279 3.94546 8.91861 5.26743C8.80357 5.33374 8.71958 5.44302 8.68512 5.57125C8.65066 5.69948 8.66856 5.83614 8.73486 5.95118C8.80116 6.06622 8.91045 6.15021 9.03868 6.18467C9.16691 6.21913 9.30357 6.20124 9.41861 6.13493H9.41361Z"
+                        d="M29.75 17.065L23.25 13.315C23.174 13.2711 23.0878 13.248 23 13.248C22.9122 13.248 22.826 13.2711 22.75 13.315L16.25 17.065C16.1737 17.1091 16.1104 17.1725 16.0665 17.2489C16.0226 17.3253 15.9997 17.4119 16 17.5V25C16.0001 25.0877 16.0232 25.1738 16.0671 25.2497C16.111 25.3257 16.1741 25.3887 16.25 25.4325L22.75 29.1825C22.826 29.2264 22.9122 29.2495 23 29.2495C23.0878 29.2495 23.174 29.2264 23.25 29.1825L29.75 25.4325C29.8259 25.3887 29.889 25.3257 29.9329 25.2497C29.9768 25.1738 29.9999 25.0877 30 25V17.5C30.0004 17.4119 29.9774 17.3253 29.9335 17.2489C29.8896 17.1725 29.8263 17.1091 29.75 17.065ZM23 14.315L28.615 17.565L23 20.675L17.5 17.5L23 14.315ZM17 18.365L22.5 21.5375V27.89L17 24.715V18.365ZM23.5 27.89V21.545L29 18.5V24.7125L23.5 27.89Z"
                         fill="true"
                       />
                       <path
-                        d="M28.083 15.347C27.3947 12.8059 25.8898 10.5616 23.8003 8.96011C21.7108 7.35858 19.1525 6.48865 16.5198 6.48439C13.8872 6.48013 11.3261 7.34176 9.23141 8.93651C7.1367 10.5313 5.62456 12.7706 4.92802 15.3095C4.91062 15.3729 4.90587 15.439 4.91404 15.5042C4.92221 15.5694 4.94315 15.6324 4.97565 15.6895C5.00815 15.7466 5.05158 15.7967 5.10346 15.8371C5.15534 15.8774 5.21466 15.9071 5.27802 15.9245C5.34138 15.9419 5.40755 15.9467 5.47275 15.9385C5.53795 15.9303 5.6009 15.9094 5.65801 15.8769C5.71511 15.8444 5.76526 15.8009 5.80558 15.7491C5.84591 15.6972 5.87562 15.6379 5.89302 15.5745C6.53171 13.2474 7.91793 11.1949 9.83807 9.73323C11.7582 8.27159 14.1057 7.48191 16.5189 7.48589C18.932 7.48987 21.2769 8.28728 23.1923 9.75526C25.1076 11.2232 26.487 13.2803 27.118 15.6095C27.1465 15.7152 27.2089 15.8087 27.2956 15.8755C27.3823 15.9424 27.4885 15.9789 27.598 15.9795C27.6429 15.9788 27.6874 15.9721 27.7305 15.9595C27.8584 15.925 27.9674 15.841 28.0335 15.7262C28.0996 15.6114 28.1174 15.475 28.083 15.347Z"
+                        d="M14.5 25.5622L10.5 27.7672V21.6797L14.75 19.1797C14.8138 19.1509 14.8708 19.109 14.9173 19.0568C14.9639 19.0046 14.9989 18.9432 15.0203 18.8766C15.0416 18.8099 15.0487 18.7396 15.0412 18.67C15.0336 18.6005 15.0115 18.5333 14.9763 18.4728C14.9412 18.4123 14.8937 18.3599 14.837 18.3189C14.7803 18.2779 14.7156 18.2493 14.6472 18.2348C14.5787 18.2204 14.508 18.2205 14.4396 18.2351C14.3712 18.2498 14.3066 18.2786 14.25 18.3197L10 20.8197L4.3875 17.6397L10 14.4547L14.25 16.6922C14.367 16.7502 14.502 16.7602 14.6262 16.7199C14.7505 16.6797 14.854 16.5924 14.9147 16.4768C14.9755 16.3612 14.9886 16.2265 14.9513 16.1013C14.9139 15.9762 14.8291 15.8707 14.715 15.8072L10.215 13.4422C10.1414 13.402 10.0589 13.3809 9.975 13.3809C9.89112 13.3809 9.80859 13.402 9.735 13.4422L3.25 17.1322C3.1737 17.1763 3.11039 17.2397 3.06649 17.3161C3.02259 17.3925 2.99965 17.4791 3 17.5672V24.9322C2.99965 25.0203 3.02259 25.107 3.06649 25.1834C3.11039 25.2597 3.1737 25.3232 3.25 25.3672L9.75 29.0497C9.82601 29.0936 9.91224 29.1167 10 29.1167C10.0878 29.1167 10.174 29.0936 10.25 29.0497L15 26.4347C15.0619 26.4057 15.1171 26.3643 15.1623 26.3131C15.2076 26.2619 15.2418 26.202 15.263 26.1371C15.2842 26.0721 15.2918 26.0035 15.2855 25.9355C15.2791 25.8675 15.2589 25.8015 15.226 25.7416C15.1932 25.6817 15.1484 25.6292 15.0944 25.5872C15.0405 25.5453 14.9785 25.5149 14.9124 25.4979C14.8462 25.4808 14.7773 25.4775 14.7098 25.4882C14.6423 25.4988 14.5777 25.5232 14.52 25.5597L14.5 25.5622ZM4 18.5622L9.5 21.6847V27.7497L4 24.6397V18.5622Z"
                         fill="true"
                       />
                       <path
-                        d="M20.8398 27.7503C15.3223 26.7503 12.2798 22.0003 12.5273 18.0003C12.6373 16.2203 14.1473 14.7178 16.0423 14.5003C16.6044 14.434 17.1742 14.4889 17.7132 14.6614C18.2523 14.8339 18.7481 15.12 19.1673 15.5003C19.589 15.8776 19.9258 16.3402 20.1555 16.8573C20.3852 17.3744 20.5025 17.9344 20.4998 18.5003C20.4994 18.6582 20.4902 18.8159 20.4723 18.9728C20.4071 19.4514 20.5016 19.9381 20.7412 20.3576C20.9807 20.777 21.3519 21.1057 21.7973 21.2928L21.8898 21.3328C22.2032 21.465 22.5433 21.5221 22.8827 21.4995C23.2221 21.4769 23.5516 21.3753 23.8448 21.2028C24.1434 21.0294 24.3976 20.789 24.5872 20.5004C24.7768 20.2119 24.8967 19.8832 24.9373 19.5403C25.0123 18.9154 25.0199 18.2843 24.9598 17.6578C24.7509 15.6665 23.8501 13.8115 22.4143 12.4159C20.9785 11.0204 19.0987 10.1726 17.1023 10.0203C15.9793 9.93806 14.8513 10.0844 13.7865 10.4505C12.7217 10.8166 11.7423 11.3949 10.9073 12.1503C10.0251 12.9588 9.3134 13.9354 8.81409 15.0229C8.31478 16.1104 8.03792 17.2868 7.99979 18.4828C7.74979 25.9453 13.7498 29.5328 13.9998 29.6828C14.0761 29.7261 14.1621 29.7493 14.2498 29.7503C14.3597 29.7501 14.4665 29.7137 14.5536 29.6467C14.6407 29.5797 14.7034 29.4859 14.7318 29.3798C14.7603 29.2736 14.753 29.161 14.7111 29.0594C14.6691 28.9579 14.5949 28.8729 14.4998 28.8178C14.4423 28.7853 8.74979 25.3703 8.99979 18.5178C9.03261 17.4557 9.27755 16.4109 9.72021 15.4449C10.1629 14.4788 10.7943 13.6111 11.5773 12.8928C12.3124 12.2274 13.1749 11.7182 14.1125 11.3959C15.0502 11.0736 16.0435 10.945 17.0323 11.0178C18.7927 11.1524 20.4502 11.8996 21.7168 13.1296C22.9833 14.3596 23.7788 15.9946 23.9648 17.7503C24.0169 18.3044 24.0102 18.8625 23.9448 19.4153C23.923 19.605 23.8572 19.787 23.7526 19.9467C23.648 20.1064 23.5075 20.2395 23.3423 20.3353C23.1821 20.4291 23.0023 20.4845 22.8171 20.4971C22.6318 20.5097 22.4462 20.4791 22.2748 20.4078L22.1798 20.3678C21.9369 20.2621 21.7355 20.0796 21.6063 19.8484C21.4772 19.6172 21.4275 19.35 21.4648 19.0878C21.4876 18.8928 21.4993 18.6966 21.4998 18.5003C21.4998 17.7958 21.3509 17.0993 21.0629 16.4564C20.7748 15.8134 20.3542 15.2386 19.8286 14.7696C19.3029 14.3006 18.6841 13.948 18.0126 13.7348C17.3411 13.5217 16.6322 13.4528 15.9323 13.5328C13.5623 13.7828 11.6673 15.6953 11.5298 17.9578C11.2173 23.0178 15.2273 27.7503 20.6598 28.7503C20.7904 28.7741 20.9252 28.7452 21.0344 28.6697C21.1436 28.5942 21.2184 28.4784 21.2423 28.3478C21.2662 28.2172 21.2372 28.0824 21.1617 27.9732C21.0862 27.8639 20.9704 27.7891 20.8398 27.7653V27.7503Z"
-                        fill="true"
-                      />
-                      <path
-                        d="M24.5 24.75C20.155 24.75 17 22.1225 17 18.5C17 18.3674 16.9473 18.2402 16.8536 18.1464C16.7598 18.0527 16.6326 18 16.5 18C16.3674 18 16.2402 18.0527 16.1464 18.1464C16.0527 18.2402 16 18.3674 16 18.5C16 22.6325 19.655 25.75 24.5 25.75C24.6326 25.75 24.7598 25.6973 24.8536 25.6036C24.9473 25.5098 25 25.3826 25 25.25C25 25.1174 24.9473 24.9902 24.8536 24.8964C24.7598 24.8027 24.6326 24.75 24.5 24.75Z"
+                        d="M10 12.2495C10.1326 12.2495 10.2598 12.1968 10.3536 12.103C10.4473 12.0093 10.5 11.8821 10.5 11.7495V7.11449L16 10.287V15.2495C16 15.3821 16.0527 15.5093 16.1464 15.603C16.2402 15.6968 16.3674 15.7495 16.5 15.7495C16.6326 15.7495 16.7598 15.6968 16.8536 15.603C16.9473 15.5093 17 15.3821 17 15.2495V10.287L22.5 7.11449V11.7495C22.5 11.8821 22.5527 12.0093 22.6464 12.103C22.7402 12.1968 22.8674 12.2495 23 12.2495C23.1326 12.2495 23.2598 12.1968 23.3536 12.103C23.4473 12.0093 23.5 11.8821 23.5 11.7495V6.24949C23.4999 6.16181 23.4768 6.07569 23.4329 5.99978C23.389 5.92387 23.3259 5.86083 23.25 5.81699L16.75 2.06699C16.674 2.0231 16.5878 2 16.5 2C16.4122 2 16.326 2.0231 16.25 2.06699L9.75 5.81699C9.67407 5.86083 9.611 5.92387 9.56712 5.99978C9.52324 6.07569 9.50009 6.16181 9.5 6.24949V11.7495C9.5 11.8821 9.55268 12.0093 9.64645 12.103C9.74021 12.1968 9.86739 12.2495 10 12.2495ZM16.5 3.07699L22 6.24949L16.5 9.42199L11 6.24949L16.5 3.07699Z"
                         fill="true"
                       />
                     </svg>
                   </Link>
                   <div className="card-info">
                     <Link href="#">
-                      <h5 className="text-22-bold">Data Security</h5>
+                      <h5 className="text-22-bold">
+                        6️⃣ Assessment, Impact & Continuous Improvement
+                      </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      The practice of safeguarding sensitive information from
-                      unauthorized access. It involves implementing robust
-                      security protocols, encryption, and access control
-                      measures to protect data integrity and privacy.
+                      • STEAM performance tracking through AI-driven analytics.
+                    </p>
+                    <p className="text-md neutral-700">
+                      • School-wide innovation projects evaluated by external
+                      reviewers.
+                    </p>
+                    <p className="text-md neutral-700">
+                      • Sustainability and long-term development plans for STEAM
+                      programs.
                     </p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </section>
@@ -1464,14 +1474,14 @@ export default function Aida() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">1</span>Application &
-                            Self-Assessment
+                            <span className="number">1</span>Self-Assessment &
+                            Application
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools submit evidence of their digital and AI
-                            integration.
+                            Schools complete an SRA self-evaluation and submit
+                            supporting documents.
                           </p>
                         </div>
                       </div>
@@ -1480,14 +1490,13 @@ export default function Aida() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">2</span>Evaluation &
-                            On-Site Review
+                            <span className="number">2</span>On-Site Evaluation
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            AIDA auditors assess compliance with framework
-                            criteria.
+                            SRA auditors assess curriculum, lab infrastructure,
+                            and student engagement.
                           </p>
                         </div>
                       </div>
@@ -1502,8 +1511,8 @@ export default function Aida() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive an AIDA Level (3, 2, or Best
-                            Practices) based on evaluation.
+                            Schools receive SRA Standard, Advanced, or Best
+                            Practices – Elite accreditation.
                           </p>
                         </div>
                       </div>
@@ -1512,14 +1521,13 @@ export default function Aida() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">4</span>Renewal &
-                            Continuous Improvement
+                            <span className="number">4</span>Ongoing Development
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools update their AI strategies and reapply
-                            periodically.
+                            Schools maintain accreditation through continuous
+                            assessment and innovation.
                           </p>
                         </div>
                       </div>
@@ -1537,7 +1545,7 @@ export default function Aida() {
                 Key Benifits
               </Link>
               <h2 className="mb-25 mt-15 neutral-0">
-                Why AIDA Accreditation?
+                Why SRA Accreditation?
                 {/* <br className="d-none d-lg-block" />
                 your customers */}
               </h2>
@@ -1562,7 +1570,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances AI readiness for future education models
+                      ✅ Recognizes excellence in STEAM education and robotics.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1581,7 +1589,8 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes innovation in AI-driven teaching and learning
+                      ✅ Prepares students for future careers in AI,
+                      engineering, and innovation.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1600,7 +1609,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures ethical AI use in schools
+                      ✅ Enhances university and industry partnerships.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1619,7 +1628,8 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes excellence in digital transformation
+                      ✅ Promotes global participation in STEAM competitions and
+                      research.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation
@@ -1641,7 +1651,7 @@ export default function Aida() {
           <div className="box-buttons justify-content-center mt-40">
             <Link
               className="btn btn-brand-4-medium mr-15 hover-up"
-              href="/aida-questions"
+              href="/sra-questions"
             >
               Apply Now
               <svg
