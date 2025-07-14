@@ -103,12 +103,13 @@ export default function SraQuestions() {
                   USAAC
                 </Link>
                 <h2 className="mb-25 mt-15 neutral-0">
-                  STEAM & Robotics Accreditation (SRA)
+                  Future Skills & Carear Readiness Accreditation (FSCA)
                 </h2>
                 <p className="text-md neutral-500">
-                  📌 <strong>Purpose: </strong> To help schools assess their
-                  integration of STEAM disciplines, robotics, and emerging
-                  technologies before applying for SRA Accreditation.
+                  📌 <strong>Purpose: </strong> The prompts align with research
+                  and standards from the World Economic Forum, OECD, and ISTE
+                  that describe the competencies young people need for the
+                  future workforce.
                   {/* <br className="d-none d-lg-block" />
                   providing clarity and support for your crypto journey */}
                 </p>

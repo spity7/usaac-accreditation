@@ -103,12 +103,12 @@ export default function LcaQuestions() {
                   USAAC
                 </Link>
                 <h2 className="mb-25 mt-15 neutral-0">
-                  STEAM & Robotics Accreditation (SRA)
+                  Leadership & Character Development Accreditation (LCA)
                 </h2>
                 <p className="text-md neutral-500">
-                  📌 <strong>Purpose: </strong> To help schools assess their
-                  integration of STEAM disciplines, robotics, and emerging
-                  technologies before applying for SRA Accreditation.
+                  📌 <strong>Purpose: </strong> Evaluate your school’s practices
+                  and policies in leadership development, character education,
+                  and community impact in preparation for LCA Accreditation.
                   {/* <br className="d-none d-lg-block" />
                   providing clarity and support for your crypto journey */}
                 </p>
