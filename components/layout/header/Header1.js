@@ -214,7 +214,7 @@ export default function Header1({
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link href="">
+                                      <Link href="ila-accreditation">
                                         Inclusive & Adaptive Learning (ILA)
                                       </Link>
                                     </li>
