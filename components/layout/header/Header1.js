@@ -140,7 +140,7 @@ export default function Header1({
                                           </Link>
                                         </li>
                                         <li>
-                                          <Link href="">
+                                          <Link href="lca-accreditation">
                                             Leadership & Character Development
                                             (LCA)
                                           </Link>
@@ -209,7 +209,7 @@ export default function Header1({
                                   <h6>Inclusive & Global Education:</h6>
                                   <ul>
                                     <li>
-                                      <Link href="">
+                                      <Link href="mea-accreditation">
                                         Multilingual Education (MEA)
                                       </Link>
                                     </li>
