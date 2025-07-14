@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import VideoPopup from "@/components/elements/VideoPopup";
 
-export default function Ila() {
+export default function Cda() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -28,14 +28,14 @@ export default function Ila() {
                   USAAC
                 </Link>
                 <h1 className="display-2 mb-40 mt-15 neutral-0">
-                  📌 Inclusive & Adaptive Learning Accreditation
+                  📌 Cybersecurity & Digital Ethics Accreditation
                   <br />
-                  (ILA)
+                  (CDA)
                 </h1>
                 <div className="box-buttons justify-content-center">
                   <Link
                     className="btn btn-brand-4-medium mr-15 hover-up"
-                    href="/ila-questions"
+                    href="/cda-questions"
                   >
                     Apply Now
                     <svg
@@ -72,10 +72,9 @@ export default function Ila() {
               </h2>
               <div className="box-button-plan">
                 <p className="fs-5 text-center">
-                  The ILA framework ensures that schools provide personalized
-                  learning experiences, accessibility accommodations, and
-                  specialized support to create equitable educational
-                  opportunities for all students.
+                  Schools ensuring cybersecurity, digital ethics, and online
+                  safety to protect students, faculty, and digital
+                  infrastructure.
                 </p>
                 <div className="box-buttons-feature-4">
                   {/* <Link className="btn btn-black" href="#">
@@ -224,8 +223,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Compliance with national special education
-                                policies.
+                                Cyber hygiene and online safety training for
+                                students and staff.
                               </li>
                               <li>
                                 <svg
@@ -269,8 +268,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Basic accommodations for students with
-                                disabilities
+                                Data protection and privacy policies in place.
                               </li>
                               <li>
                                 <svg
@@ -314,8 +312,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Special education staff available for individual
-                                student support.
+                                School-wide firewall and antivirus software
+                                installed.
                               </li>
                               <li>
                                 <svg
@@ -359,8 +357,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Incorporation of inclusion and diversity in
-                                school culture.
+                                Basic digital ethics education included in
+                                curriculum.
                               </li>
                               {/* <li>
                                 <svg
@@ -508,7 +506,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              💡 Basic special education policies and support.
+                              💡 Basic cybersecurity awareness and data
+                              protection measures.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -591,8 +590,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Differentiated instruction strategies integrated
-                                across subjects.
+                                Structured cybersecurity curriculum including
+                                cryptography, cyber laws, and AI ethics.
                               </li>
                               <li>
                                 <svg
@@ -636,8 +635,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Personalized learning plans (PLPs) for students
-                                with special needs.
+                                Hands-on ethical hacking and cybersecurity
+                                training.
                               </li>
                               <li>
                                 <svg
@@ -681,8 +680,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Regular teacher training on adaptive learning
-                                and neurodiversity.
+                                Cybersecurity competitions & hackathons
+                                participation.
                               </li>
                               <li>
                                 <svg
@@ -726,8 +725,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Use of EdTech tools and AI-driven accessibility
-                                features.
+                                Incident response and cyber threat management
+                                protocols implemented.
                               </li>
                               {/* <li>
                                 <svg
@@ -787,8 +786,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🚀 Personalized learning pathways and teacher
-                              training.
+                              🚀 Offers ethical hacking programs and digital
+                              safety courses.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -871,8 +870,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Full-scale implementation of universal design
-                                for learning (UDL).
+                                AI-powered cybersecurity monitoring & threat
+                                intelligence systems.
                               </li>
                               <li>
                                 <svg
@@ -916,8 +915,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI-powered adaptive learning platforms for
-                                personalized student engagement.
+                                Collaboration with global cybersecurity agencies
+                                and universities.
                               </li>
                               <li>
                                 <svg
@@ -961,8 +960,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Collaboration with research institutions and
-                                global special education networks.
+                                Advanced research in cybersecurity, ethical AI,
+                                and quantum cryptography.
                               </li>
                               <li>
                                 <svg
@@ -1006,8 +1005,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Data-driven progress tracking and neurodiversity
-                                research initiatives.
+                                Real-world cyber defense simulation labs and
+                                ethical hacking certification programs.
                               </li>
                               {/* <li>
                                 <svg
@@ -1111,8 +1110,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🏆 Globally recognized as a model for adaptive
-                              learning excellence.
+                              🏆 Recognized for world-class cybersecurity
+                              programs and digital protection initiatives.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -1145,7 +1144,7 @@ export default function Ila() {
           <div className="container">
             <div className="text-center">
               <h2 className="neutral-0 mb-20">
-                🔹 Ila Accreditation Pillars
+                🔹 Cda Accreditation Pillars
                 {/* <br className="d-none d-lg-block" />
                 We Provide Truly Prominent IT Solutions */}
               </h2>
@@ -1196,19 +1195,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        1️⃣ Leadership & Institutional Commitment
+                        1️⃣ Leadership & Cybersecurity Governance
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Inclusive education embedded in the school’s mission and
-                      policies.
+                      • Cybersecurity policies embedded in school IT governance.
                     </p>
                     <p className="text-md neutral-700">
-                      • Commitment to accessibility, diversity, and equity.
+                      • Regular cybersecurity audits and compliance with global
+                      security standards.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with government and NGOs to enhance
-                      inclusive learning opportunities.
+                      • Collaboration with industry and government cybersecurity
+                      agencies.
                     </p>
                   </div>
                 </div>
@@ -1232,20 +1231,20 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        2️⃣ Curriculum & Adaptive Learning Models
+                        2️⃣ Cybersecurity Curriculum & Digital Ethics
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Implementation of Universal Design for Learning (UDL)
-                      principles.
+                      • Comprehensive cyber literacy and digital ethics
+                      education.
                     </p>
                     <p className="text-md neutral-700">
-                      • Personalized learning pathways with assistive technology
-                      support.
+                      • Hands-on ethical hacking, digital forensics, and AI
+                      security courses.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of special education methodologies (ABA,
-                      multisensory learning, social-emotional learning).
+                      • Cybersecurity awareness campaigns & student-led digital
+                      safety projects.
                     </p>
                   </div>
                 </div>
@@ -1293,20 +1292,18 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        3️⃣ Teacher Training & Professional Development
+                        3️⃣ IT Infrastructure & Cybersecurity Protocols
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Continuous professional development in special education
-                      and inclusive teaching strategies.
+                      • Firewalls, endpoint protection, and advanced threat
+                      detection systems.
                     </p>
                     <p className="text-md neutral-700">
-                      • Teacher certification in assistive technology and
-                      adaptive methodologies.
+                      • Data encryption and secure cloud storage policies.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with psychologists and therapists for
-                      student-centered learning support.
+                      • AI-driven monitoring of suspicious online activity.
                     </p>
                   </div>
                 </div>
@@ -1342,19 +1339,17 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        4️⃣ Student Support Services & Accessibility
+                        4️⃣ Student & Faculty Cyber Awareness
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Speech and occupational therapy services for students.
+                      • Mandatory cybersecurity training for students and staff.
                     </p>
                     <p className="text-md neutral-700">
-                      • AI-powered EdTech tools for personalized learning
-                      interventions.
+                      • School-wide cyber hygiene awareness programs.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of sign language, braille, and other
-                      assistive communication tools.
+                      • Cyber incident response & emergency preparedness drills.
                     </p>
                   </div>
                 </div>
@@ -1386,21 +1381,20 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        5️⃣ Assessment, Progress Tracking & Continuous
-                        Improvement
+                        5️⃣ Assessment, Monitoring & Continuous Improvement
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Use of AI-driven analytics for student progress
-                      tracking.
+                      • Regular vulnerability assessments and penetration
+                      testing.
                     </p>
                     <p className="text-md neutral-700">
-                      • Regular IEP/PLP reviews and modifications based on
-                      student needs.
+                      • Real-time cybersecurity analytics and AI-powered risk
+                      detection.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with research institutions on
-                      neurodiversity and adaptive learning advancements.
+                      • Continuous improvement framework for digital security
+                      policies.
                     </p>
                   </div>
                 </div>
@@ -1489,8 +1483,8 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools evaluate inclusion practices and submit
-                            supporting documentation.
+                            Schools evaluate cybersecurity readiness and submit
+                            policies.
                           </p>
                         </div>
                       </div>
@@ -1499,15 +1493,12 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">2</span>On-Site or
-                            Virtual Evaluation:
+                            <span className="number">2</span>Cybersecurity Audit
+                            & Assessment:
                           </h6>
                         </div>
                         <div className="card-desc">
-                          <p>
-                            ILA auditors assess policies, teacher training, and
-                            accessibility initiatives.
-                          </p>
+                          <p>On-site or virtual evaluation by CDA auditors.</p>
                         </div>
                       </div>
                     </div>
@@ -1521,7 +1512,7 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive ILA Standard, Advanced, or Best
+                            Schools receive CDA Standard, Advanced, or Best
                             Practices – Elite certification.
                           </p>
                         </div>
@@ -1531,14 +1522,14 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">4</span>Ongoing
-                            Development:
+                            <span className="number">4</span>Ongoing Compliance
+                            & Security Enhancements:
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools maintain accreditation through continued
-                            enhancement of inclusive practices.
+                            Regular updates to cybersecurity infrastructure and
+                            policies.
                           </p>
                         </div>
                       </div>
@@ -1556,7 +1547,7 @@ export default function Ila() {
                 Key Benifits
               </Link>
               <h2 className="mb-25 mt-15 neutral-0">
-                Why ILA Accreditation?
+                Why CDA Accreditation?
                 {/* <br className="d-none d-lg-block" />
                 your customers */}
               </h2>
@@ -1581,8 +1572,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in inclusive and adaptive
-                      learning.
+                      ✅ Recognizes schools as cybersecurity leaders in digital
+                      education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1601,8 +1592,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures accessibility and equity in education for all
-                      students.
+                      ✅ Prepares students for careers in cybersecurity and AI
+                      ethics.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1621,8 +1612,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes professional development in special education
-                      methodologies.
+                      ✅ Protects schools against cyber threats and digital
+                      fraud.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1641,8 +1632,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with disability advocacy groups
-                      and research institutions.
+                      ✅ Supports partnerships with cybersecurity agencies and
+                      tech companies.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation
@@ -1664,7 +1655,7 @@ export default function Ila() {
           <div className="box-buttons justify-content-center mt-40">
             <Link
               className="btn btn-brand-4-medium mr-15 hover-up"
-              href="/ila-questions"
+              href="/cda-questions"
             >
               Apply Now
               <svg

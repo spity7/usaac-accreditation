@@ -62,7 +62,7 @@ export default function Footer2() {
                   <a href="/aida-accreditation">AI & Digital Learning (AIDA)</a>
                 </li>
                 <li>
-                  <a href="">STEAM & Robotics (SRA)</a>
+                  <a href="sra-accreditation">STEAM & Robotics (SRA)</a>
                 </li>
               </ul>
             </div>
@@ -70,10 +70,14 @@ export default function Footer2() {
               <h6>Future-Ready Education:</h6>
               <ul className="menu-footer">
                 <li>
-                  <a href="">Future Skills & Career Readiness (FSCA)</a>
+                  <a href="fsca-accreditation">
+                    Future Skills & Career Readiness (FSCA)
+                  </a>
                 </li>
                 <li>
-                  <a href="">Leadership & Character Development (LCA)</a>
+                  <a href="lca-accreditation">
+                    Leadership & Character Development (LCA)
+                  </a>
                 </li>
               </ul>
             </div>
@@ -81,13 +85,17 @@ export default function Footer2() {
               <h6>Inclusive & Global Education:</h6>
               <ul className="menu-footer">
                 <li>
-                  <a href="">Multilingual Education (MEA)</a>
+                  <a href="mea-accreditation">Multilingual Education (MEA)</a>
                 </li>
                 <li>
-                  <a href="">Inclusive & Adaptive Learning (ILA)</a>
+                  <a href="ila-accreditation">
+                    Inclusive & Adaptive Learning (ILA)
+                  </a>
                 </li>
                 <li>
-                  <a href="">Global Academic Excellence (GAE)</a>
+                  <a href="gae-accreditation">
+                    Global Academic Excellence (GAE)
+                  </a>
                 </li>
               </ul>
             </div>
@@ -95,10 +103,14 @@ export default function Footer2() {
               <h6>Safety & Sustainability:</h6>
               <ul className="menu-footer">
                 <li>
-                  <a href="">Cybersecurity & Digital Ethics (CDA)</a>
+                  <a href="cda-accreditation">
+                    Cybersecurity & Digital Ethics (CDA)
+                  </a>
                 </li>
                 <li>
-                  <a href="">Sustainable & Green Schools (SGA)</a>
+                  <a href="sga-accreditation">
+                    Sustainable & Green Schools (SGA)
+                  </a>
                 </li>
               </ul>
             </div>

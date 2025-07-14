@@ -5,6 +5,7 @@ import LogoTicker from "@/components/elements/LogoTicker";
 import Layout from "@/components/layout/Layout";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -251,9 +252,7 @@ ${form.message}
                             <img src="/assets/imgs/page/homepage3/digital.svg" />
                           </div>
                           <div className="card-info">
-                            <h3 className="text-22-bold">
-                              5. Get Support
-                            </h3>
+                            <h3 className="text-22-bold">5. Get Support</h3>
                             <div className="text-md neutral-700">
                               <div className="row">
                                 <div className="col-sm-12">
@@ -569,13 +568,243 @@ ${form.message}
               </div>
             </div>
           </section> */}
-          <section className="section-box wow animate__animated animate__fadeIn box-logos-4">
-            <div className="container">
+          <section className="section-box box-partners box-partners-small pt-0 pb-0">
+            <div className="container-partner">
               <div
-                className="carouselTickerLogos2 carouselTicker_vertical"
-                id="slide-logos"
+                className="carouselTicker6 carouselTicker_vertical"
+                id="slide-partners"
               >
-                <LogoTicker />
+                <Marquee
+                  // style={{ width: "auto" }}
+                  pauseOnHover={true}
+                  direction="left"
+                  className="carouselTicker__list list-partners"
+                >
+                  <li className="carouselTicker__item">
+                    <Link href="iea-accreditation">
+                      <span className="fs-4">
+                        Innovation in Education (IEA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="aida-accreditation">
+                      <span className="fs-4">AI & Digital Learning (AIDA)</span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="sra-accreditation">
+                      <span className="fs-4">STEAM & Robotics (SRA)</span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="fsca-accreditation">
+                      <span className="fs-4">
+                        Future Skills & Career Readiness (FSCA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="lca-accreditation">
+                      <span className="fs-4">
+                        Leadership & Character Development (LCA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="mea-accreditation">
+                      <span className="fs-4">Multilingual Education (MEA)</span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="ila-accreditation">
+                      <span className="fs-4">
+                        Inclusive & Adaptive Learning (ILA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="gae-accreditation">
+                      <span className="fs-4">
+                        Global Academic Excellence (GAE)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="cda-accreditation">
+                      <span className="fs-4">
+                        Cybersecurity & Digital Ethics (CDA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="carouselTicker__item">
+                    <Link href="sga-accreditation">
+                      <span className="fs-4">
+                        Sustainable & Green Schools (SGA)
+                      </span>
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.83288 38C2.29876 38 2.76464 37.8284 3.13245 37.4606L37.4607 3.13793C38.1718 2.42696 38.1718 1.25018 37.4607 0.539213C36.7496 -0.171757 35.5727 -0.171757 34.8616 0.539213L0.533314 34.8619C-0.177769 35.5729 -0.177769 36.7497 0.533314 37.4606C0.901119 37.8284 1.367 38 1.83288 38Z"
+                          fill="true"
+                        />
+                        <path
+                          d="M36.161 28.8556C37.1663 28.8556 38 28.022 38 27.0169V1.83872C38 0.833551 37.1663 0 36.161 0H10.9788C9.97343 0 9.13975 0.833551 9.13975 1.83872C9.13975 2.84388 9.97343 3.67743 10.9788 3.67743H34.322V27.0169C34.322 28.022 35.1557 28.8556 36.161 28.8556Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                  </li>
+                </Marquee>
               </div>
             </div>
           </section>

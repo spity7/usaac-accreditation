@@ -14,29 +14,47 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
       items: [
         { label: "Innovation in Education (IEA)", href: "/iea-accreditation" },
         { label: "AI & Digital Learning (AIDA)", href: "/aida-accreditation" },
-        { label: "STEAM & Robotics (SRA)", href: "" },
+        { label: "STEAM & Robotics (SRA)", href: "sra-accreditation" },
       ],
     },
     {
       title: "Future-Ready Education:",
       items: [
-        { label: "Future Skills & Career Readiness (FSCA)", href: "" },
-        { label: "Leadership & Character Development (LCA)", href: "" },
+        {
+          label: "Future Skills & Career Readiness (FSCA)",
+          href: "fsca-accreditation",
+        },
+        {
+          label: "Leadership & Character Development (LCA)",
+          href: "lca-accreditation",
+        },
       ],
     },
     {
       title: "Inclusive & Global Education:",
       items: [
-        { label: "Multilingual Education (MEA)", href: "" },
-        { label: "Inclusive & Adaptive Learning (ILA)", href: "" },
-        { label: "Global Academic Excellence (GAE)", href: "" },
+        { label: "Multilingual Education (MEA)", href: "mea-accreditation" },
+        {
+          label: "Inclusive & Adaptive Learning (ILA)",
+          href: "ila-accreditation",
+        },
+        {
+          label: "Global Academic Excellence (GAE)",
+          href: "gae-accreditation",
+        },
       ],
     },
     {
       title: "Safety & Sustainability:",
       items: [
-        { label: "Cybersecurity & Digital Ethics (CDA)", href: "" },
-        { label: "Sustainable & Green Schools (SGA)", href: "" },
+        {
+          label: "Cybersecurity & Digital Ethics (CDA)",
+          href: "cda-accreditation",
+        },
+        {
+          label: "Sustainable & Green Schools (SGA)",
+          href: "sga-accreditation",
+        },
       ],
     },
   ];

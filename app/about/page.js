@@ -1097,7 +1097,7 @@ export default function About() {
                   className="carouselTicker__list list-partners"
                 >
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="iea-accreditation">
                       <span className="fs-4">
                         Innovation in Education (IEA)
                       </span>
@@ -1120,7 +1120,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="aida-accreditation">
                       <span className="fs-4">AI & Digital Learning (AIDA)</span>
                       <svg
                         width={18}
@@ -1141,7 +1141,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="sra-accreditation">
                       <span className="fs-4">STEAM & Robotics (SRA)</span>
                       <svg
                         width={18}
@@ -1162,7 +1162,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="fsca-accreditation">
                       <span className="fs-4">
                         Future Skills & Career Readiness (FSCA)
                       </span>
@@ -1185,7 +1185,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="lca-accreditation">
                       <span className="fs-4">
                         Leadership & Character Development (LCA)
                       </span>
@@ -1208,7 +1208,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="mea-accreditation">
                       <span className="fs-4">Multilingual Education (MEA)</span>
                       <svg
                         width={18}
@@ -1229,7 +1229,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="ila-accreditation">
                       <span className="fs-4">
                         Inclusive & Adaptive Learning (ILA)
                       </span>
@@ -1252,7 +1252,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="gae-accreditation">
                       <span className="fs-4">
                         Global Academic Excellence (GAE)
                       </span>
@@ -1275,7 +1275,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="cda-accreditation">
                       <span className="fs-4">
                         Cybersecurity & Digital Ethics (CDA)
                       </span>
@@ -1298,7 +1298,7 @@ export default function About() {
                     </Link>
                   </li>
                   <li className="carouselTicker__item">
-                    <Link href="#">
+                    <Link href="sga-accreditation">
                       <span className="fs-4">
                         Sustainable & Green Schools (SGA)
                       </span>

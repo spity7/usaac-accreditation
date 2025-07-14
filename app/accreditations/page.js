@@ -105,7 +105,7 @@ export default function Accreditations() {
                     </Link>
                     <Link
                       className="btn btn-learmore"
-                      href="/iea-accreditation"
+                      href="/aida-accreditation"
                     >
                       <svg
                         width={38}
@@ -152,7 +152,7 @@ export default function Accreditations() {
                     </Link>
                     <Link
                       className="btn btn-learmore"
-                      href="/iea-accreditation"
+                      href="/sra-accreditation"
                     >
                       <svg
                         width={38}
@@ -220,7 +220,10 @@ export default function Accreditations() {
                       system for schools transitioning toward AI-powered and
                       digitally enhanced learning environments.
                     </p>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link
+                      className="btn btn-learmore"
+                      href="fsca-accreditation"
+                    >
                       <svg
                         width={38}
                         height={38}
@@ -264,7 +267,7 @@ export default function Accreditations() {
                       </svg>{" "}
                       Future Skills & Career Readiness (FSCA)
                     </Link>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="lca-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -331,7 +334,7 @@ export default function Accreditations() {
                       high-quality STEAM education, preparing students for
                       future careers in technology, engineering, and innovation.
                     </p>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="mea-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -375,7 +378,7 @@ export default function Accreditations() {
                       </svg>{" "}
                       Multilingual Education (MEA)
                     </Link>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="ila-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -419,7 +422,7 @@ export default function Accreditations() {
                       </svg>{" "}
                       Inclusive & Adaptive Learning (ILA)
                     </Link>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="gae-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -487,7 +490,7 @@ export default function Accreditations() {
                       entrepreneurial mindsets essential for success in an
                       evolving global workforce.
                     </p>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="cda-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -531,7 +534,7 @@ export default function Accreditations() {
                       </svg>{" "}
                       Cybersecurity & Digital Ethics (CDA)
                     </Link>
-                    <Link className="btn btn-learmore" href="#">
+                    <Link className="btn btn-learmore" href="sga-accreditation">
                       <svg
                         width={38}
                         height={38}
@@ -1676,7 +1679,7 @@ export default function Accreditations() {
                 className="carouselTicker__list list-partners"
               >
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="iea-accreditation">
                     <span className="fs-4">Innovation in Education (IEA)</span>
                     <svg
                       width={18}
@@ -1697,7 +1700,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="aida-accreditation">
                     <span className="fs-4">AI & Digital Learning (AIDA)</span>
                     <svg
                       width={18}
@@ -1718,7 +1721,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="sra-accreditation">
                     <span className="fs-4">STEAM & Robotics (SRA)</span>
                     <svg
                       width={18}
@@ -1739,7 +1742,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="fsca-accreditation">
                     <span className="fs-4">
                       Future Skills & Career Readiness (FSCA)
                     </span>
@@ -1762,7 +1765,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="lca-accreditation">
                     <span className="fs-4">
                       Leadership & Character Development (LCA)
                     </span>
@@ -1785,7 +1788,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="mea-accreditation">
                     <span className="fs-4">Multilingual Education (MEA)</span>
                     <svg
                       width={18}
@@ -1806,7 +1809,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="ila-accreditation">
                     <span className="fs-4">
                       Inclusive & Adaptive Learning (ILA)
                     </span>
@@ -1829,7 +1832,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="gae-accreditation">
                     <span className="fs-4">
                       Global Academic Excellence (GAE)
                     </span>
@@ -1852,7 +1855,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="cda-accreditation">
                     <span className="fs-4">
                       Cybersecurity & Digital Ethics (CDA)
                     </span>
@@ -1875,7 +1878,7 @@ export default function Accreditations() {
                   </Link>
                 </li>
                 <li className="carouselTicker__item">
-                  <Link href="#">
+                  <Link href="sga-accreditation">
                     <span className="fs-4">
                       Sustainable & Green Schools (SGA)
                     </span>

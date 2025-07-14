@@ -219,7 +219,7 @@ export default function Header1({
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link href="">
+                                      <Link href="gae-accreditation">
                                         Global Academic Excellence (GAE)
                                       </Link>
                                     </li>
@@ -240,12 +240,12 @@ export default function Header1({
                                   <h6>Safety & Sustainability:</h6>
                                   <ul>
                                     <li>
-                                      <Link href="">
+                                      <Link href="cda-accreditation">
                                         Cybersecurity & Digital Ethics (CDA)
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link href="">
+                                      <Link href="sga-accreditation">
                                         Sustainable & Green Schools (SGA)
                                       </Link>
                                     </li>

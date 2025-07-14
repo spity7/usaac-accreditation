@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import VideoPopup from "@/components/elements/VideoPopup";
 
-export default function Ila() {
+export default function Gae() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -28,14 +28,14 @@ export default function Ila() {
                   USAAC
                 </Link>
                 <h1 className="display-2 mb-40 mt-15 neutral-0">
-                  📌 Inclusive & Adaptive Learning Accreditation
+                  📌 Global Academic Excellence Accreditation
                   <br />
-                  (ILA)
+                  (GAE)
                 </h1>
                 <div className="box-buttons justify-content-center">
                   <Link
                     className="btn btn-brand-4-medium mr-15 hover-up"
-                    href="/ila-questions"
+                    href="/gae-questions"
                   >
                     Apply Now
                     <svg
@@ -72,10 +72,9 @@ export default function Ila() {
               </h2>
               <div className="box-button-plan">
                 <p className="fs-5 text-center">
-                  The ILA framework ensures that schools provide personalized
-                  learning experiences, accessibility accommodations, and
-                  specialized support to create equitable educational
-                  opportunities for all students.
+                  The GAE framework ensures that schools meet high academic
+                  standards, foster continuous improvement, and implement global
+                  best practices in education.
                 </p>
                 <div className="box-buttons-feature-4">
                   {/* <Link className="btn btn-black" href="#">
@@ -224,7 +223,52 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Compliance with national special education
+                                Adheres to national and international curriculum
+                                standards.
+                              </li>
+                              <li>
+                                <svg
+                                  width={26}
+                                  height={26}
+                                  viewBox="0 0 26 26"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clipPath="url(#clip0_15_115)">
+                                    <path
+                                      d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                      fill="url(#paint0_linear_15_115)"
+                                    />
+                                    <path
+                                      d="M7.11719 13.8396L10.479 17.2014L18.8835 8.79688"
+                                      stroke="#191919"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    ></path>
+                                  </g>
+                                  <defs>
+                                    <linearGradient
+                                      id="paint0_linear_15_115"
+                                      x1="26.9286"
+                                      y1="3.85184"
+                                      x2="-2.09554"
+                                      y2="5.87316"
+                                      gradientUnits="userSpaceOnUse"
+                                    >
+                                      <stop stopColor="#22D1EE" />
+                                      <stop offset={1} stopColor="#C5FF41" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_15_115">
+                                      <rect
+                                        width={26}
+                                        height={26}
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>{" "}
+                                Qualified faculty and structured academic
                                 policies.
                               </li>
                               <li>
@@ -269,8 +313,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Basic accommodations for students with
-                                disabilities
+                                Basic student performance tracking and
+                                assessment procedures.
                               </li>
                               <li>
                                 <svg
@@ -314,53 +358,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Special education staff available for individual
-                                student support.
-                              </li>
-                              <li>
-                                <svg
-                                  width={26}
-                                  height={26}
-                                  viewBox="0 0 26 26"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clipPath="url(#clip0_15_115)">
-                                    <path
-                                      d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
-                                      fill="url(#paint0_linear_15_115)"
-                                    />
-                                    <path
-                                      d="M7.11719 13.8396L10.479 17.2014L18.8835 8.79688"
-                                      stroke="#191919"
-                                      strokeWidth={2}
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <linearGradient
-                                      id="paint0_linear_15_115"
-                                      x1="26.9286"
-                                      y1="3.85184"
-                                      x2="-2.09554"
-                                      y2="5.87316"
-                                      gradientUnits="userSpaceOnUse"
-                                    >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
-                                    </linearGradient>
-                                    <clipPath id="clip0_15_115">
-                                      <rect
-                                        width={26}
-                                        height={26}
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>{" "}
-                                Incorporation of inclusion and diversity in
-                                school culture.
+                                Core subjects and essential extracurricular
+                                programs integrated.
                               </li>
                               {/* <li>
                                 <svg
@@ -508,7 +507,7 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              💡 Basic special education policies and support.
+                              💡 Meets quality educational standards.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -591,8 +590,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Differentiated instruction strategies integrated
-                                across subjects.
+                                Data-driven curriculum refinement and continuous
+                                assessment.
                               </li>
                               <li>
                                 <svg
@@ -636,8 +635,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Personalized learning plans (PLPs) for students
-                                with special needs.
+                                Innovative teaching methodologies (PBL,
+                                AI-driven learning, blended learning).
                               </li>
                               <li>
                                 <svg
@@ -681,8 +680,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Regular teacher training on adaptive learning
-                                and neurodiversity.
+                                Professional development programs for faculty.
                               </li>
                               <li>
                                 <svg
@@ -726,8 +724,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Use of EdTech tools and AI-driven accessibility
-                                features.
+                                Student leadership, research, and international
+                                collaboration programs.
                               </li>
                               {/* <li>
                                 <svg
@@ -787,8 +785,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🚀 Personalized learning pathways and teacher
-                              training.
+                              🚀 Implements continuous improvement and
+                              innovative teaching.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -871,8 +869,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Full-scale implementation of universal design
-                                for learning (UDL).
+                                Top-tier academic performance and
+                                research-driven teaching.
                               </li>
                               <li>
                                 <svg
@@ -916,8 +914,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI-powered adaptive learning platforms for
-                                personalized student engagement.
+                                AI-enhanced personalized learning and advanced
+                                academic analytics.
                               </li>
                               <li>
                                 <svg
@@ -961,8 +959,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Collaboration with research institutions and
-                                global special education networks.
+                                Global collaborations with universities, EdTech
+                                firms, and industry leaders.
                               </li>
                               <li>
                                 <svg
@@ -1006,8 +1004,9 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Data-driven progress tracking and neurodiversity
-                                research initiatives.
+                                International recognition in academic
+                                competitions, research, and institutional
+                                excellence.
                               </li>
                               {/* <li>
                                 <svg
@@ -1111,8 +1110,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🏆 Globally recognized as a model for adaptive
-                              learning excellence.
+                              🏆 Recognized as an elite institution for academic
+                              excellence.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -1145,7 +1144,7 @@ export default function Ila() {
           <div className="container">
             <div className="text-center">
               <h2 className="neutral-0 mb-20">
-                🔹 Ila Accreditation Pillars
+                🔹 Gae Accreditation Pillars
                 {/* <br className="d-none d-lg-block" />
                 We Provide Truly Prominent IT Solutions */}
               </h2>
@@ -1196,19 +1195,20 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        1️⃣ Leadership & Institutional Commitment
+                        1️⃣ Academic Quality & Curriculum Standards
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Inclusive education embedded in the school’s mission and
-                      policies.
+                      • Compliance with global and national education
+                      frameworks.
                     </p>
                     <p className="text-md neutral-700">
-                      • Commitment to accessibility, diversity, and equity.
+                      • Advanced, interdisciplinary, and research-based
+                      curriculum models.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with government and NGOs to enhance
-                      inclusive learning opportunities.
+                      • Student-centered learning with emphasis on critical
+                      thinking and problem-solving.
                     </p>
                   </div>
                 </div>
@@ -1232,20 +1232,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        2️⃣ Curriculum & Adaptive Learning Models
+                        2️⃣ Teaching Excellence & Faculty Development
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Implementation of Universal Design for Learning (UDL)
-                      principles.
+                      • Highly qualified educators with continuous professional
+                      development.
                     </p>
                     <p className="text-md neutral-700">
-                      • Personalized learning pathways with assistive technology
-                      support.
+                      • AI-powered teacher evaluation and mentorship programs.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of special education methodologies (ABA,
-                      multisensory learning, social-emotional learning).
+                      • Implementation of innovative teaching strategies and
+                      instructional technology.
                     </p>
                   </div>
                 </div>
@@ -1293,20 +1292,18 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        3️⃣ Teacher Training & Professional Development
+                        3️⃣ Student Performance & Learning Outcomes
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Continuous professional development in special education
-                      and inclusive teaching strategies.
+                      • Competency-based assessment and academic tracking.
                     </p>
                     <p className="text-md neutral-700">
-                      • Teacher certification in assistive technology and
-                      adaptive methodologies.
+                      • Personalized learning pathways for student success.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with psychologists and therapists for
-                      student-centered learning support.
+                      • Global benchmarking of student outcomes in standardized
+                      tests and competitions.
                     </p>
                   </div>
                 </div>
@@ -1342,19 +1339,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        4️⃣ Student Support Services & Accessibility
+                        4️⃣ Institutional Leadership & Governance
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Speech and occupational therapy services for students.
+                      • Strategic planning and data-driven decision-making for
+                      academic leadership.
                     </p>
                     <p className="text-md neutral-700">
-                      • AI-powered EdTech tools for personalized learning
-                      interventions.
+                      • Effective school governance and stakeholder engagement.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of sign language, braille, and other
-                      assistive communication tools.
+                      • School-wide policies supporting inclusivity, ethics, and
+                      academic integrity.
                     </p>
                   </div>
                 </div>
@@ -1386,21 +1383,20 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        5️⃣ Assessment, Progress Tracking & Continuous
-                        Improvement
+                        5️⃣ Globalization & Research Integration
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Use of AI-driven analytics for student progress
-                      tracking.
+                      • Student participation in international research,
+                      competitions, and exchange programs.
                     </p>
                     <p className="text-md neutral-700">
-                      • Regular IEP/PLP reviews and modifications based on
-                      student needs.
+                      • Institutional partnerships with global universities,
+                      industries, and think tanks.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with research institutions on
-                      neurodiversity and adaptive learning advancements.
+                      • Integration of AI, robotics, and advanced research
+                      projects into academics.
                     </p>
                   </div>
                 </div>
@@ -1489,8 +1485,8 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools evaluate inclusion practices and submit
-                            supporting documentation.
+                            Schools evaluate academic excellence initiatives and
+                            submit reports.
                           </p>
                         </div>
                       </div>
@@ -1499,14 +1495,14 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">2</span>On-Site or
-                            Virtual Evaluation:
+                            <span className="number">2</span>On-Site or Virtual
+                            Evaluation:
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            ILA auditors assess policies, teacher training, and
-                            accessibility initiatives.
+                            GAE auditors assess curriculum, faculty development,
+                            and student outcomes.
                           </p>
                         </div>
                       </div>
@@ -1521,7 +1517,7 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive ILA Standard, Advanced, or Best
+                            Schools receive GAE Standard, Advanced, or Best
                             Practices – Elite certification.
                           </p>
                         </div>
@@ -1531,14 +1527,14 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">4</span>Ongoing
-                            Development:
+                            <span className="number">4</span>Continuous
+                            Improvement & Recertification:
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools maintain accreditation through continued
-                            enhancement of inclusive practices.
+                            Schools maintain accreditation through ongoing
+                            performance evaluation.
                           </p>
                         </div>
                       </div>
@@ -1556,7 +1552,7 @@ export default function Ila() {
                 Key Benifits
               </Link>
               <h2 className="mb-25 mt-15 neutral-0">
-                Why ILA Accreditation?
+                Why GAE Accreditation?
                 {/* <br className="d-none d-lg-block" />
                 your customers */}
               </h2>
@@ -1581,8 +1577,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in inclusive and adaptive
-                      learning.
+                      ✅ Recognizes institutions for outstanding academic
+                      quality.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1601,8 +1597,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures accessibility and equity in education for all
-                      students.
+                      ✅ Enhances international credibility and university
+                      partnerships.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1621,8 +1617,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes professional development in special education
-                      methodologies.
+                      ✅ Encourages faculty innovation and student achievement.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1641,8 +1636,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with disability advocacy groups
-                      and research institutions.
+                      ✅ Supports schools in advancing AI-driven education and
+                      academic research.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation
@@ -1664,7 +1659,7 @@ export default function Ila() {
           <div className="box-buttons justify-content-center mt-40">
             <Link
               className="btn btn-brand-4-medium mr-15 hover-up"
-              href="/ila-questions"
+              href="/gae-questions"
             >
               Apply Now
               <svg

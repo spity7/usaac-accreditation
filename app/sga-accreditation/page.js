@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import VideoPopup from "@/components/elements/VideoPopup";
 
-export default function Ila() {
+export default function Sga() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -28,14 +28,14 @@ export default function Ila() {
                   USAAC
                 </Link>
                 <h1 className="display-2 mb-40 mt-15 neutral-0">
-                  📌 Inclusive & Adaptive Learning Accreditation
+                  📌 Sustainable & Green Schools Accreditation
                   <br />
-                  (ILA)
+                  (SGA)
                 </h1>
                 <div className="box-buttons justify-content-center">
                   <Link
                     className="btn btn-brand-4-medium mr-15 hover-up"
-                    href="/ila-questions"
+                    href="/sga-questions"
                   >
                     Apply Now
                     <svg
@@ -72,10 +72,9 @@ export default function Ila() {
               </h2>
               <div className="box-button-plan">
                 <p className="fs-5 text-center">
-                  The ILA framework ensures that schools provide personalized
-                  learning experiences, accessibility accommodations, and
-                  specialized support to create equitable educational
-                  opportunities for all students.
+                  Schools implementing sustainability, climate education, and
+                  eco-friendly initiatives to foster environmental
+                  responsibility and green innovation.
                 </p>
                 <div className="box-buttons-feature-4">
                   {/* <Link className="btn btn-black" href="#">
@@ -224,8 +223,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Compliance with national special education
-                                policies.
+                                Recycling programs and waste reduction policies.
                               </li>
                               <li>
                                 <svg
@@ -269,8 +267,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Basic accommodations for students with
-                                disabilities
+                                Water and energy conservation measures.
                               </li>
                               <li>
                                 <svg
@@ -314,8 +311,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Special education staff available for individual
-                                student support.
+                                Integration of environmental awareness into the
+                                curriculum.
                               </li>
                               <li>
                                 <svg
@@ -359,8 +356,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Incorporation of inclusion and diversity in
-                                school culture.
+                                School green space or garden project.
                               </li>
                               {/* <li>
                                 <svg
@@ -508,7 +504,7 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              💡 Basic special education policies and support.
+                              💡 Basic recycling and energy-saving initiatives.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -591,8 +587,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Differentiated instruction strategies integrated
-                                across subjects.
+                                On-campus renewable energy sources (solar
+                                panels, wind turbines).
                               </li>
                               <li>
                                 <svg
@@ -636,8 +632,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Personalized learning plans (PLPs) for students
-                                with special needs.
+                                Water harvesting & waste management systems.
                               </li>
                               <li>
                                 <svg
@@ -681,8 +676,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Regular teacher training on adaptive learning
-                                and neurodiversity.
+                                Green buildings & energy-efficient
+                                infrastructure.
                               </li>
                               <li>
                                 <svg
@@ -726,8 +721,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Use of EdTech tools and AI-driven accessibility
-                                features.
+                                Sustainability education integrated into
+                                multiple subjects.
                               </li>
                               {/* <li>
                                 <svg
@@ -787,8 +782,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🚀 Personalized learning pathways and teacher
-                              training.
+                              🚀 Uses renewable energy, green infrastructure,
+                              and sustainability programs.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -871,8 +866,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Full-scale implementation of universal design
-                                for learning (UDL).
+                                Carbon-neutral or net-zero school policies.
                               </li>
                               <li>
                                 <svg
@@ -916,8 +910,7 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                AI-powered adaptive learning platforms for
-                                personalized student engagement.
+                                AI-powered energy monitoring & optimization.
                               </li>
                               <li>
                                 <svg
@@ -961,8 +954,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Collaboration with research institutions and
-                                global special education networks.
+                                Research-driven sustainability innovations led
+                                by students.
                               </li>
                               <li>
                                 <svg
@@ -1006,8 +999,8 @@ export default function Ila() {
                                     </clipPath>
                                   </defs>
                                 </svg>{" "}
-                                Data-driven progress tracking and neurodiversity
-                                research initiatives.
+                                Global collaborations on climate action &
+                                sustainability.
                               </li>
                               {/* <li>
                                 <svg
@@ -1111,8 +1104,8 @@ export default function Ila() {
                               </div>
                             )} */}
                             <span className="text-sm neutral-500">
-                              🏆 Globally recognized as a model for adaptive
-                              learning excellence.
+                              🏆 Globally recognized as a leader in
+                              sustainability and environmental impact.
                             </span>
                           </div>
                           {/* <div className="card-button">
@@ -1145,7 +1138,7 @@ export default function Ila() {
           <div className="container">
             <div className="text-center">
               <h2 className="neutral-0 mb-20">
-                🔹 Ila Accreditation Pillars
+                🔹 Sga Accreditation Pillars
                 {/* <br className="d-none d-lg-block" />
                 We Provide Truly Prominent IT Solutions */}
               </h2>
@@ -1196,19 +1189,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        1️⃣ Leadership & Institutional Commitment
+                        1️⃣ Leadership & Policy Commitment
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Inclusive education embedded in the school’s mission and
+                      • Sustainability is embedded in the school's mission &
                       policies.
                     </p>
                     <p className="text-md neutral-700">
-                      • Commitment to accessibility, diversity, and equity.
+                      • Long-term sustainability roadmap with measurable goals.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with government and NGOs to enhance
-                      inclusive learning opportunities.
+                      • Partnerships with environmental organizations & green
+                      industries.
                     </p>
                   </div>
                 </div>
@@ -1232,20 +1225,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        2️⃣ Curriculum & Adaptive Learning Models
+                        2️⃣ Green Curriculum & Climate Education
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Implementation of Universal Design for Learning (UDL)
-                      principles.
+                      • STEM & humanities integration for sustainability
+                      learning.
                     </p>
                     <p className="text-md neutral-700">
-                      • Personalized learning pathways with assistive technology
-                      support.
+                      • Hands-on environmental projects & research.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of special education methodologies (ABA,
-                      multisensory learning, social-emotional learning).
+                      • Climate change, biodiversity, and circular economy
+                      education.
                     </p>
                   </div>
                 </div>
@@ -1293,20 +1285,19 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        3️⃣ Teacher Training & Professional Development
+                        3️⃣ Sustainable Campus & Green Infrastructure
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Continuous professional development in special education
-                      and inclusive teaching strategies.
+                      • Eco-friendly school buildings with sustainable
+                      materials.
                     </p>
                     <p className="text-md neutral-700">
-                      • Teacher certification in assistive technology and
-                      adaptive methodologies.
+                      • Energy efficiency & smart environmental monitoring
+                      systems.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with psychologists and therapists for
-                      student-centered learning support.
+                      • Water conservation & waste management programs.
                     </p>
                   </div>
                 </div>
@@ -1342,19 +1333,18 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        4️⃣ Student Support Services & Accessibility
+                        4️⃣ Student Engagement & Community Action
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Speech and occupational therapy services for students.
+                      • Student-led sustainability clubs & projects.
                     </p>
                     <p className="text-md neutral-700">
-                      • AI-powered EdTech tools for personalized learning
-                      interventions.
+                      • Local and global partnerships for green initiatives.
                     </p>
                     <p className="text-md neutral-700">
-                      • Integration of sign language, braille, and other
-                      assistive communication tools.
+                      • Green career pathways & environmental leadership
+                      training.
                     </p>
                   </div>
                 </div>
@@ -1386,21 +1376,18 @@ export default function Ila() {
                   <div className="card-info">
                     <Link href="#">
                       <h5 className="text-22-bold">
-                        5️⃣ Assessment, Progress Tracking & Continuous
-                        Improvement
+                        5️⃣ Assessment, Impact & Continuous Improvement
                       </h5>
                     </Link>
                     <p className="text-md neutral-700">
-                      • Use of AI-driven analytics for student progress
-                      tracking.
+                      • Carbon footprint & sustainability impact tracking.
                     </p>
                     <p className="text-md neutral-700">
-                      • Regular IEP/PLP reviews and modifications based on
-                      student needs.
+                      • Annual environmental audits & sustainability reports.
                     </p>
                     <p className="text-md neutral-700">
-                      • Collaboration with research institutions on
-                      neurodiversity and adaptive learning advancements.
+                      • AI-driven sustainability solutions & predictive
+                      analytics.
                     </p>
                   </div>
                 </div>
@@ -1489,8 +1476,8 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools evaluate inclusion practices and submit
-                            supporting documentation.
+                            Schools complete an SGA self-evaluation and submit
+                            sustainability initiatives.
                           </p>
                         </div>
                       </div>
@@ -1499,14 +1486,14 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">2</span>On-Site or
-                            Virtual Evaluation:
+                            <span className="number">2</span>On-Site or Virtual
+                            Evaluation:
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            ILA auditors assess policies, teacher training, and
-                            accessibility initiatives.
+                            SGA auditors assess policies, curriculum, and
+                            infrastructure.
                           </p>
                         </div>
                       </div>
@@ -1521,7 +1508,7 @@ export default function Ila() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive ILA Standard, Advanced, or Best
+                            Schools receive SGA Standard, Advanced, or Best
                             Practices – Elite certification.
                           </p>
                         </div>
@@ -1531,14 +1518,14 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">4</span>Ongoing
+                            <span className="number">4</span>Continuous
                             Development:
                           </h6>
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools maintain accreditation through continued
-                            enhancement of inclusive practices.
+                            Schools maintain accreditation through ongoing
+                            sustainability projects.
                           </p>
                         </div>
                       </div>
@@ -1556,7 +1543,7 @@ export default function Ila() {
                 Key Benifits
               </Link>
               <h2 className="mb-25 mt-15 neutral-0">
-                Why ILA Accreditation?
+                Why Sga Accreditation?
                 {/* <br className="d-none d-lg-block" />
                 your customers */}
               </h2>
@@ -1581,8 +1568,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in inclusive and adaptive
-                      learning.
+                      ✅ Recognizes schools as leaders in sustainability
+                      education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1601,8 +1588,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures accessibility and equity in education for all
-                      students.
+                      ✅ Enhances global reputation & eco-initiatives.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1621,8 +1607,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes professional development in special education
-                      methodologies.
+                      ✅ Prepares students for careers in sustainability,
+                      environmental science, & green technology.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1641,8 +1627,8 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with disability advocacy groups
-                      and research institutions.
+                      ✅ Supports partnerships with global environmental
+                      organizations.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation
@@ -1664,7 +1650,7 @@ export default function Ila() {
           <div className="box-buttons justify-content-center mt-40">
             <Link
               className="btn btn-brand-4-medium mr-15 hover-up"
-              href="/ila-questions"
+              href="/sga-questions"
             >
               Apply Now
               <svg
