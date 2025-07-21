@@ -245,9 +245,9 @@ export default function About() {
                 </div>
                 <div className="col-lg-6 mb-30">
                   <h6 className="neutral-500">
-                    Since 2010, USAAC has partnered with educational leaders
-                    worldwide to foster innovation, inclusion, and quality in
-                    learning environments.
+                    USAAC has partnered with educational leaders worldwide to
+                    foster innovation, inclusion, and quality in learning
+                    environments.
                   </h6>
                 </div>
               </div>

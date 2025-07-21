@@ -169,7 +169,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                       <Link href="/process">Process</Link>
                     </li>
                     <li>
-                      <Link href="/recognition">Recognition</Link>
+                      <Link href="/recognition">Q&A</Link>
                     </li>
                     <li
                       className={

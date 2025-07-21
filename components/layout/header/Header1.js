@@ -314,7 +314,7 @@ export default function Header1({
                       <Link href="/process">Process</Link>
                     </li>
                     <li className="">
-                      <Link href="/recognition">Recognition</Link>
+                      <Link href="/recognition">Q&A</Link>
                     </li>
                   </ul>
                 </nav>

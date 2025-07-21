@@ -1126,7 +1126,13 @@ export default function Process() {
                     </div> */}
                     <div className="box-sidebar-normal">
                       <Link href="#">
-                        <img src="/assets/imgs/page/job/ads.png" alt="Nivia" />
+                        <img
+                          src="/assets/imgs/page/job/peer-review-performance-evaluation-feedback-loop-system-stylized-flat-illustration-process-features-simplified-figures-389228880-removebg-preview - Edited.png"
+                          alt="Nivia"
+                          style={{
+                            borderRadius: "20px",
+                          }}
+                        />
                       </Link>
                     </div>
                   </div>
@@ -1139,23 +1145,23 @@ export default function Process() {
               <div className="row align-items-center">
                 <div className="col-lg-5 mb-40">
                   <div className="box-sec5-img-top">
-                    <img
+                    {/* <img
                       className="shape-1"
                       alt="Nivia"
-                      src="/assets/imgs/page/homepage6/chart1.png"
-                    />
+                      src="/assets/imgs/page/homepage6/appointment-booking-design.png"
+                    /> */}
                     <img
                       className="shape-3"
                       alt="Nivia"
-                      src="/assets/imgs/page/homepage6/chart2.png"
+                      src="/assets/imgs/page/homepage6/appointment-booking-design.png"
                     />
                   </div>
                   <div className="box-sec5-img-bottom">
-                    <img
+                    {/* <img
                       className="shape-3"
                       alt="Nivia"
                       src="/assets/imgs/page/homepage6/chart3.png"
-                    />
+                    /> */}
                     {/* <img
                       className="shape-1"
                       alt="Nivia"
