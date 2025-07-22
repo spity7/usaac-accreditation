@@ -677,7 +677,7 @@ export default function Home() {
                 <div
                   className="card-enjoy"
                   style={{
-                    border: "1px solid rgb(179, 255, 0)",
+                    border: "1px solid #45a2ff",
                   }}
                 >
                   <div className="card-image">
@@ -727,8 +727,8 @@ export default function Home() {
                             y2="8.58385"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#22D1EE" />
-                            <stop offset={1} stopColor="#C5FF41" />
+                            <stop stopColor="#fa5f5f" />
+                            <stop offset={1} stopColor="#45a2ff" />
                           </linearGradient>
                           <clipPath id="clip0_15_1041">
                             <rect
@@ -843,7 +843,7 @@ export default function Home() {
                 <div
                   className="card-enjoy"
                   style={{
-                    border: "1px solid rgb(179, 255, 0)",
+                    border: "1px solid #45a2ff",
                   }}
                 >
                   <div className="card-image">
@@ -998,7 +998,7 @@ export default function Home() {
                 <div
                   className="card-enjoy"
                   style={{
-                    border: "1px solid rgb(179, 255, 0)",
+                    border: "1px solid #45a2ff",
                   }}
                 >
                   <div className="card-image">
@@ -1112,7 +1112,7 @@ export default function Home() {
                 <div
                   className="card-enjoy"
                   style={{
-                    border: "1px solid rgb(179, 255, 0)",
+                    border: "1px solid #45a2ff",
                   }}
                 >
                   <div className="card-image">

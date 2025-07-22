@@ -119,7 +119,7 @@ export default function Footer2() {
             <div className="row">
               <div className="col-md-6">
                 <p className="text-sm neutral-600">
-                  Copyright © 2025 Appsido. All rights reserved.
+                  Copyright © 2025 USAAC. All rights reserved.
                 </p>
               </div>
               <div className="col-md-6 text-md-end text-start">

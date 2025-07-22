@@ -1518,7 +1518,7 @@ export default function Fsca() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive FSCA , , or Best Practices – Elite.
+                            Schools receive FSCA Standard, Advanced, or Best Practices – Elite.
                           </p>
                         </div>
                       </div>

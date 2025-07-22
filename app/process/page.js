@@ -80,7 +80,7 @@ export default function Process() {
                 <div className="col-lg-4 col-md-6">
                   <div
                     className="card-question card-question-2"
-                    style={{ borderColor: "#abf602" }}
+                    style={{ borderColor: "#0055ff" }}
                   >
                     <div className="card-image">
                       {" "}
@@ -103,7 +103,7 @@ export default function Process() {
                 <div className="col-lg-4 col-md-6">
                   <div
                     className="card-question card-question-2"
-                    style={{ borderColor: "#abf602" }}
+                    style={{ borderColor: "#0055ff" }}
                   >
                     <div className="card-image">
                       {" "}
@@ -126,7 +126,7 @@ export default function Process() {
                 <div className="col-lg-4 col-md-6">
                   <div
                     className="card-question card-question-2"
-                    style={{ borderColor: "#abf602" }}
+                    style={{ borderColor: "#0055ff" }}
                   >
                     <div className="card-image">
                       {" "}
@@ -148,7 +148,7 @@ export default function Process() {
                 <div className="col-lg-6 col-md-6">
                   <div
                     className="card-question card-question-2"
-                    style={{ borderColor: "#abf602" }}
+                    style={{ borderColor: "#0055ff" }}
                   >
                     <div className="card-image">
                       {" "}
@@ -170,7 +170,7 @@ export default function Process() {
                 <div className="col-lg-6 col-md-6">
                   <div
                     className="card-question card-question-2"
-                    style={{ borderColor: "#abf602" }}
+                    style={{ borderColor: "#0055ff" }}
                   >
                     <div className="card-image">
                       {" "}

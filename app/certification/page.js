@@ -150,7 +150,7 @@ export default function Process() {
                       <Link href="#">
                         <h5 className="text-22-bold">Validity:</h5>
                       </Link>
-                      <p className="text-md neutral-700">
+                      <p className="text-md neutral-500">
                         1–3 years (depending on level and domain)
                       </p>
                     </div>
@@ -176,7 +176,7 @@ export default function Process() {
                       <Link href="#">
                         <h5 className="text-22-bold">Renewal:</h5>
                       </Link>
-                      <p className="text-md neutral-700">
+                      <p className="text-md neutral-500">
                         Requires updated materials and summary of learner
                         outcomes
                       </p>
@@ -227,7 +227,7 @@ export default function Process() {
                       <Link href="#">
                         <h5 className="text-22-bold">Revocation:</h5>
                       </Link>
-                      <p className="text-md neutral-700">
+                      <p className="text-md neutral-500">
                         For non-compliance, quality breaches, or
                         misrepresentation
                       </p>

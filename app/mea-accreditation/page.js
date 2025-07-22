@@ -1508,7 +1508,7 @@ export default function Mea() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive MEA , , or Best Practices – Elite
+                            Schools receive MEA Standard, Advanced, or Best Practices – Elite
                             based on criteria.
                           </p>
                         </div>

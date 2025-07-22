@@ -1227,7 +1227,7 @@ export default function Iea() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive accreditation status (, 2, or Best
+                            Schools receive accreditation status (1, 2, or Best
                             Practices).
                           </p>
                         </div>

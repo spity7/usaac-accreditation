@@ -1502,7 +1502,7 @@ export default function Aida() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive an AIDA Level (3, 2, or Best
+                            Schools receive an AIDA Level (1, 2, or Best
                             Practices) based on evaluation.
                           </p>
                         </div>

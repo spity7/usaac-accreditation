@@ -24,9 +24,9 @@ export default function About() {
             <div className="banner-hero hero-4">
               <div className="banner-inner pt-50">
                 <div className="container">
-                  <Link className="btn btn-brand-5 fw-bold fs-4" href="#">
+                  <span className="btn btn-brand-5 fw-bold fs-4">
                     About Us
-                  </Link>
+                  </span>
                   <h3 className="mb-40 mt-15 neutral-0">
                     📌 About Us – USA Accreditation Council (USAAC)
                   </h3>
@@ -429,7 +429,7 @@ export default function About() {
             <div className="container">
               <div className="text-center">
                 <h2 className="neutral-0 mb-40">🔹 Leadership Team</h2>
-                <p className="text-lg neutral-700">
+                <p className="text-lg neutral-400">
                   The USAAC is led by a diverse team of educators, policy
                   experts, and industry innovators with decades of experience in
                   global education reform, digital transformation, and
