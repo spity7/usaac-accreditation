@@ -14,6 +14,27 @@ export default function Process() {
         <div>
           <section className="section-box box-our-working">
             <div className="container">
+              <div className="box-buttons justify-content-center mb-30">
+                <Link
+                  className="btn btn-brand-4-medium mr-15 hover-up"
+                  href="/certification-form"
+                >
+                  Apply Now
+                  <svg
+                    width={22}
+                    height={22}
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z"
+                      fill="true"
+                    />
+                  </svg>
+                </Link>
+                {/* <VideoPopup /> */}
+              </div>
               <div className="text-center">
                 <p className="text-24-bold mb-15">
                   USA Accreditation Council Certification{" "}
@@ -692,6 +713,27 @@ export default function Process() {
                         transfer (when applicable)
                       </li>
                     </ul>
+                  </div>
+                  <div className="box-buttons justify-content-center mt-30">
+                    <Link
+                      className="btn btn-brand-4-medium mr-15 hover-up"
+                      href="/certification-form"
+                    >
+                      Apply Now
+                      <svg
+                        width={22}
+                        height={22}
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z"
+                          fill="true"
+                        />
+                      </svg>
+                    </Link>
+                    {/* <VideoPopup /> */}
                   </div>
                 </div>
                 <div className="col-lg-7 mb-30">
