@@ -211,8 +211,8 @@ export default function Mea() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1508,8 +1508,8 @@ export default function Mea() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive MEA Standard, Advanced, or Best Practices – Elite
-                            based on criteria.
+                            Schools receive MEA Standard, Advanced, or Best
+                            Practices – Elite based on criteria.
                           </p>
                         </div>
                       </div>
@@ -1568,7 +1568,7 @@ export default function Mea() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes excellence in multilingual education.
+                      🗸 Recognizes excellence in multilingual education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1587,7 +1587,7 @@ export default function Mea() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances global student mobility & university access.
+                      🗸 Enhances global student mobility & university access.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1606,7 +1606,7 @@ export default function Mea() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Strengthens cross-cultural competence & career
+                      🗸 Strengthens cross-cultural competence & career
                       readiness.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1626,7 +1626,7 @@ export default function Mea() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports AI-driven & immersive language learning
+                      🗸 Supports AI-driven & immersive language learning
                       methodologies.
                     </h6>
                     {/* <p className="text-sm neutral-500">

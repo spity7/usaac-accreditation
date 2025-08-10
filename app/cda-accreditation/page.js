@@ -211,8 +211,8 @@ export default function Cda() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1572,7 +1572,7 @@ export default function Cda() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as cybersecurity leaders in digital
+                      🗸 Recognizes schools as cybersecurity leaders in digital
                       education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1592,7 +1592,7 @@ export default function Cda() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Prepares students for careers in cybersecurity and AI
+                      🗸 Prepares students for careers in cybersecurity and AI
                       ethics.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1612,7 +1612,7 @@ export default function Cda() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Protects schools against cyber threats and digital
+                      🗸 Protects schools against cyber threats and digital
                       fraud.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1632,7 +1632,7 @@ export default function Cda() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with cybersecurity agencies and
+                      🗸 Supports partnerships with cybersecurity agencies and
                       tech companies.
                     </h6>
                     {/* <p className="text-sm neutral-500">

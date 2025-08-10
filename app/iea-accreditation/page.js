@@ -211,8 +211,8 @@ export default function Iea() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1285,7 +1285,7 @@ export default function Iea() {
                     />
                   </div> */}
                   <div className="card-info">
-                    <h6>✅ Global Recognition</h6>
+                    <h6>🗸 Global Recognition</h6>
                     <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
                       programs.
@@ -1302,7 +1302,7 @@ export default function Iea() {
                     />
                   </div> */}
                   <div className="card-info">
-                    <h6>✅ Industry Connections</h6>
+                    <h6>🗸 Industry Connections</h6>
                     <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
                       education experts.
@@ -1319,7 +1319,7 @@ export default function Iea() {
                     />
                   </div> */}
                   <div className="card-info">
-                    <h6>✅ Student Impact</h6>
+                    <h6>🗸 Student Impact</h6>
                     <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
                       problem-solving, entrepreneurship, and leadership.
@@ -1337,7 +1337,7 @@ export default function Iea() {
                     />
                   </div> */}
                   <div className="card-info">
-                    <h6>✅ Funding & Grants Access</h6>
+                    <h6>🗸 Funding & Grants Access</h6>
                     <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation
                       funding and research grants.
@@ -1351,7 +1351,7 @@ export default function Iea() {
                     <img src="/assets/imgs/page/homepage2/3d.svg" alt="Nivia" />
                   </div> */}
                   <div className="card-info">
-                    <h6>✅ Competitive Advantage</h6>
+                    <h6>🗸 Competitive Advantage</h6>
                     <p className="text-sm neutral-500">
                       Attracts top-tier students and faculty passionate about
                       innovation.

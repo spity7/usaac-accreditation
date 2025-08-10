@@ -212,8 +212,8 @@ export default function Ila() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1499,8 +1499,8 @@ export default function Ila() {
                       <div className="card-casestudy">
                         <div className="card-title">
                           <h6>
-                            <span className="number">2</span>On-Site or
-                            Virtual Evaluation:
+                            <span className="number">2</span>On-Site or Virtual
+                            Evaluation:
                           </h6>
                         </div>
                         <div className="card-desc">
@@ -1581,7 +1581,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in inclusive and adaptive
+                      🗸 Recognizes schools as leaders in inclusive and adaptive
                       learning.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1601,7 +1601,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures accessibility and equity in education for all
+                      🗸 Ensures accessibility and equity in education for all
                       students.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1621,7 +1621,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes professional development in special education
+                      🗸 Promotes professional development in special education
                       methodologies.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1641,7 +1641,7 @@ export default function Ila() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with disability advocacy groups
+                      🗸 Supports partnerships with disability advocacy groups
                       and research institutions.
                     </h6>
                     {/* <p className="text-sm neutral-500">

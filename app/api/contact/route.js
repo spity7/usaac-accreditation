@@ -15,7 +15,7 @@ export async function POST(req) {
 
     // Configure nodemailer transporter
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "smtp.hostinger.com",
       port: 465,
       secure: true,
       auth: {
@@ -31,7 +31,7 @@ export async function POST(req) {
     const mailOptions = {
       from: `"Website Contact Form" <${process.env.EMAIL_USER}>`, // Your Gmail, with a friendly sender name
       replyTo: email, // visitor’s email so replies go to them
-      to: "support@usaac.us",
+      to: process.env.EMAIL_USER,
       subject: `New Contact Form Submission`,
       text: `
 Name: ${name}

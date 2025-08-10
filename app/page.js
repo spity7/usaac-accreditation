@@ -727,8 +727,8 @@ export default function Home() {
                             y2="8.58385"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#fa5f5f" />
-                            <stop offset={1} stopColor="#45a2ff" />
+                            <stop stopColor="#f24455" />
+                            <stop offset={1} stopColor="#ff94b2" />
                           </linearGradient>
                           <clipPath id="clip0_15_1041">
                             <rect

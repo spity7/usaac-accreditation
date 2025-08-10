@@ -30,9 +30,9 @@ export default function Section1() {
                     <div className="box-buttons">
                       <Link
                         className="btn btn-green-linear mr-15"
-                        href="/contact"
+                        href="/about"
                       >
-                        Contact Us
+                        About Us
                         <svg
                           width={22}
                           height={22}

@@ -212,8 +212,8 @@ export default function Lca() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1581,7 +1581,7 @@ export default function Lca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as global leaders in character and
+                      🗸 Recognizes schools as global leaders in character and
                       leadership education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1601,7 +1601,7 @@ export default function Lca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Encourages student-led governance and social impact.
+                      🗸 Encourages student-led governance and social impact.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1620,7 +1620,7 @@ export default function Lca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Prepares students for leadership roles in education,
+                      🗸 Prepares students for leadership roles in education,
                       government, and business.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1640,7 +1640,7 @@ export default function Lca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Strengthens partnerships with leadership training
+                      🗸 Strengthens partnerships with leadership training
                       institutions and mentors.
                     </h6>
                     {/* <p className="text-sm neutral-500">

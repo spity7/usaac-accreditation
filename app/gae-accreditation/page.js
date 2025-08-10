@@ -211,8 +211,8 @@ export default function Gae() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1577,7 +1577,7 @@ export default function Gae() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes institutions for outstanding academic
+                      🗸 Recognizes institutions for outstanding academic
                       quality.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1597,7 +1597,7 @@ export default function Gae() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances international credibility and university
+                      🗸 Enhances international credibility and university
                       partnerships.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1617,7 +1617,7 @@ export default function Gae() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Encourages faculty innovation and student achievement.
+                      🗸 Encourages faculty innovation and student achievement.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1636,7 +1636,7 @@ export default function Gae() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports schools in advancing AI-driven education and
+                      🗸 Supports schools in advancing AI-driven education and
                       academic research.
                     </h6>
                     {/* <p className="text-sm neutral-500">

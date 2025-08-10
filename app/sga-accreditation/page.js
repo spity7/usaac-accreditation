@@ -211,8 +211,8 @@ export default function Sga() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1568,7 +1568,7 @@ export default function Sga() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in sustainability
+                      🗸 Recognizes schools as leaders in sustainability
                       education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1588,7 +1588,7 @@ export default function Sga() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances global reputation & eco-initiatives.
+                      🗸 Enhances global reputation & eco-initiatives.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1607,7 +1607,7 @@ export default function Sga() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Prepares students for careers in sustainability,
+                      🗸 Prepares students for careers in sustainability,
                       environmental science, & green technology.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1627,7 +1627,7 @@ export default function Sga() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Supports partnerships with global environmental
+                      🗸 Supports partnerships with global environmental
                       organizations.
                     </h6>
                     {/* <p className="text-sm neutral-500">

@@ -212,8 +212,8 @@ export default function Fsca() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1518,7 +1518,8 @@ export default function Fsca() {
                         </div>
                         <div className="card-desc">
                           <p>
-                            Schools receive FSCA Standard, Advanced, or Best Practices – Elite.
+                            Schools receive FSCA Standard, Advanced, or Best
+                            Practices – Elite.
                           </p>
                         </div>
                       </div>
@@ -1577,7 +1578,7 @@ export default function Fsca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes schools as leaders in career & future skills
+                      🗸 Recognizes schools as leaders in career & future skills
                       education.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1597,7 +1598,7 @@ export default function Fsca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Helps students gain real-world job skills and
+                      🗸 Helps students gain real-world job skills and
                       entrepreneurial experience.
                     </h6>
                     {/* <p className="text-sm neutral-500">
@@ -1617,7 +1618,7 @@ export default function Fsca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances university and career placement opportunities.
+                      🗸 Enhances university and career placement opportunities.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1636,7 +1637,7 @@ export default function Fsca() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Attracts industry partnerships and EdTech innovation
+                      🗸 Attracts industry partnerships and EdTech innovation
                       grants.
                     </h6>
                     {/* <p className="text-sm neutral-500">

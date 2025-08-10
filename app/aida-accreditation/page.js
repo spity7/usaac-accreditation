@@ -211,8 +211,8 @@ export default function Aida() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1562,7 +1562,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances AI readiness for future education models
+                      🗸 Enhances AI readiness for future education models
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1581,7 +1581,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes innovation in AI-driven teaching and learning
+                      🗸 Promotes innovation in AI-driven teaching and learning
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1600,7 +1600,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Ensures ethical AI use in schools
+                      🗸 Ensures ethical AI use in schools
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1619,7 +1619,7 @@ export default function Aida() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes excellence in digital transformation
+                      🗸 Recognizes excellence in digital transformation
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Accredited schools gain opportunities for innovation

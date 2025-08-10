@@ -55,7 +55,7 @@ export default function Section7() {
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
                     >
-                      ✅ Comprehensive & Specialized Accreditations
+                      ✔️ Comprehensive & Specialized Accreditations
                     </button>
                   </h2>
                   <div
@@ -95,7 +95,7 @@ export default function Section7() {
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
                     >
-                      ✅ Three-Level Recognition System
+                      ✔️ Three-Level Recognition System
                     </button>
                   </h2>
                   <div
@@ -133,7 +133,7 @@ export default function Section7() {
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
                     >
-                      ✅ Global Recognition
+                      ✔️ Global Recognition
                     </button>
                   </h2>
                   <div
@@ -171,7 +171,7 @@ export default function Section7() {
                       aria-expanded="false"
                       aria-controls="flush-collapseFour"
                     >
-                      ✅ Supportive Process
+                      ✔️ Supportive Process
                     </button>
                   </h2>
                   <div
@@ -209,7 +209,7 @@ export default function Section7() {
                       aria-expanded="false"
                       aria-controls="flush-collapseFive"
                     >
-                      ✅ Innovation-Driven Standards
+                      ✔️ Innovation-Driven Standards
                     </button>
                   </h2>
                   <div

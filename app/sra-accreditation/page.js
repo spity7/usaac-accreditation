@@ -211,8 +211,8 @@ export default function Sra() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#22D1EE" />
-                                      <stop offset={1} stopColor="#C5FF41" />
+                                      <stop stopColor="#f24455" />
+                                      <stop offset={1} stopColor="#ff94b2" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect
@@ -1570,7 +1570,7 @@ export default function Sra() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Recognizes excellence in STEAM education and robotics.
+                      🗸 Recognizes excellence in STEAM education and robotics.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Schools gain international validation for their innovation
@@ -1589,8 +1589,8 @@ export default function Sra() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Prepares students for future careers in AI,
-                      engineering, and innovation.
+                      🗸 Prepares students for future careers in AI, engineering,
+                      and innovation.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Facilitates partnerships with leading technology firms and
@@ -1609,7 +1609,7 @@ export default function Sra() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Enhances university and industry partnerships.
+                      🗸 Enhances university and industry partnerships.
                     </h6>
                     {/* <p className="text-sm neutral-500">
                       Equips learners with future-proof skills in
@@ -1628,7 +1628,7 @@ export default function Sra() {
                   </div> */}
                   <div className="card-info">
                     <h6 className="text-center">
-                      ✅ Promotes global participation in STEAM competitions and
+                      🗸 Promotes global participation in STEAM competitions and
                       research.
                     </h6>
                     {/* <p className="text-sm neutral-500">
