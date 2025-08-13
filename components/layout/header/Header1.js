@@ -324,7 +324,7 @@ export default function Header1({
               {/* <SearchForm /> */}
               <Link className="btn btn-brand-4-medium hover-up" href="/contact">
                 Contact Us
-                <svg
+                {/* <svg
                   width={22}
                   height={22}
                   viewBox="0 0 22 22"
@@ -335,7 +335,7 @@ export default function Header1({
                     d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z"
                     fill="true"
                   ></path>
-                </svg>
+                </svg> */}
               </Link>
               <div
                 className="burger-icon burger-icon-white"

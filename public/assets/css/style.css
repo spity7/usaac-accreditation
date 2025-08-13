@@ -942,10 +942,10 @@ body {
   background: url(../imgs/template/icons/search.svg) no-repeat center;
 }
 .btn.btn-green-linear {
-  background: linear-gradient(to right, #f24455, #ff94b2);
-  color: black;
+  background: linear-gradient(to right, #0046a1, #4495fc);
+  color: white;
   border-radius: 10px;
-  border: 1px solid #45a2ff;
+  border: 2px solid white;
   font-size: 22px;
   font-weight: bold;
   display: flex;
@@ -996,7 +996,7 @@ body {
   fill: #191919;
 }
 .btn.btn-learmore:hover {
-  color: #ff94b2
+  color: #4495fc
 }
 .btn.btn-learmore:hover svg {
   fill: black;
@@ -1121,8 +1121,8 @@ body {
   border-radius: 32px;
   padding: 4px 20px 4px 6px;
   color: #191919;
-  border: 1px solid #ffffff;
-  background: linear-gradient(to right, #ff8585, #91c8ff);
+  border: 1px solid #4495fc;
+  background: linear-gradient(to right, #4495fc, #d6e8ff);
 }
 .btn.btn-bg-brand-4 span {
   display: inline-block;
@@ -1218,12 +1218,12 @@ body {
 }
 .btn.btn-get-started {
   padding: 21px 30px;
-  background: linear-gradient(to right, #f24455, #ff94b2);
+  background: linear-gradient(to right, #0046a1, #4495fc);
   border-radius: 96px;
-  border: 1px solid white;
+  border: 2px solid white;
   width: 100%;
-  color: #191919;
-  font-size: 18px;
+  color: white;
+  font-size: 22px;
   line-height: 22px;
   font-weight: 600;
   font-family: var(--tg-body-font-family);
@@ -1235,6 +1235,7 @@ body {
 .btn.btn-get-started:hover {
   /* background: linear-gradient(to right, #45a2ff, #ff4747); */
   background: white;
+  color: black;
 }
 .btn.btn-popular {
   border-radius: 4px;
@@ -1255,8 +1256,8 @@ body {
   line-height: 20px !important;
   font-family: var(--tg-body-font-family);
   font-weight: 500 !important;
-  background: linear-gradient(to right, #f24455, #ff94b2);
-  border: 1px solid white;
+  background: linear-gradient(to right, #4495fc, #d6e8ff);
+  border: 1px solid #4495fc;
 }
 .btn.btn-black svg {
   fill: black;
@@ -1322,10 +1323,10 @@ body {
 }
 .btn.btn-brand-4-medium {
   padding: 14px 25px;
-  background: linear-gradient(to right, #f24455, #ff94b2);
+  background: linear-gradient(to right, #0046a1, #4495fc);
   border-radius: 8px;
   border: 1px solid white;
-  color: #191919;
+  color: white;
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
@@ -1339,12 +1340,12 @@ body {
 }
 .btn.btn-brand-4-medium:hover {
   /* background: linear-gradient(to right, #ff94b2, #ffdbe8); */
-  background: #f24455;
+  background: #4495fc;
 }
 .btn.btn-brand-4-sm {
   padding: 4px 21px;
-  background-color: #ff94b2;
-  border: 1px solid #f24455;
+  background-color: #4495fc;
+  border: 1px solid #4495fc;
   border-radius: 36px;
   color: #191919;
   font-size: 20px;
@@ -1357,7 +1358,7 @@ body {
   margin-left: 5px;
 }
 .btn.btn-brand-4-sm:hover {
-  background: #f24455;
+  background: #d6e8ff;
   color: #191919;
 }
 .btn.btn-tag-2 {
@@ -1391,8 +1392,8 @@ body {
 }
 .btn.btn-brand-5 {
   padding: 4px 21px;
-  background: linear-gradient(135deg, #f24455, #ff94b2);
-  border: 1px solid #f24455;
+  background: linear-gradient(135deg, #0046a1, #4495fc);
+  border: 1px solid #4495fc;
   border-radius: 36px;
   color: white;
   font-size: 16px;
@@ -1406,7 +1407,7 @@ body {
   margin-left: 5px;
 }
 .btn.btn-brand-5:hover {
-  background: linear-gradient(135deg, #ff94b2, #f24455);
+  /* background: linear-gradient(135deg, #ff94b2, #f24455); */
 }
 .btn.btn-brand-5-new {
   padding: 4px 25px 4px 5px;
@@ -2087,7 +2088,7 @@ label {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #ff94b2;
+  background-color: #4495fc;
   font-size: 24px;
   font-weight: bold;
   font-family: var(--tg-body-font-family);
@@ -2102,7 +2103,7 @@ label {
   color: #5A5B5B;
 }
 .card-working:hover {
-  background: linear-gradient(to right, #ff94b2, #ff94b2);
+  background: linear-gradient(to right, #4495fc, #d6e8ff);
   border-color: #0055ff;
 }
 .card-working:hover .card-number span {
@@ -2242,7 +2243,7 @@ label {
 .card-casestudy .card-title .number {
   width: 39px;
   height: 39px;
-  background: linear-gradient(135deg, #f24455, #ff94b2);
+  background: linear-gradient(135deg, #4495fc, #d6e8ff);
   color: #191919;
   font-size: 24px;
   line-height: 39px;
@@ -2485,7 +2486,7 @@ label {
   color: #898A8A;
 }
 .card-preparing-2:hover .card-image {
-  background-color: #ff94b2;
+  background-color: #d6e8ff;
 }
 .card-preparing-2:hover .card-image svg {
   fill: #191919;
@@ -3193,7 +3194,7 @@ label {
   position: relative;
 }
 .header .main-menu li a:hover {
-  color: red;
+  color: #4495fc;
 }
 .header .main-menu li a i {
   font-size: 10px;
@@ -3250,7 +3251,7 @@ label {
 }
 .header .main-menu li ul li a:hover {
   transition: 0.5s;
-  color: #f24455;
+  color: #d6e8ff;
 }
 .header .main-menu li ul li a:hover::after {
   opacity: 1;
@@ -3986,7 +3987,7 @@ label {
   color: #5A5B5B;
 }
 .footer.footer-style-2 .menu-footer li a:hover {
-  color: #f24455;
+  color: #4495fc;
 }
 .footer.footer-style-2 .footer-bottom {
   border-top: 1px solid;
@@ -5828,7 +5829,7 @@ a.icon-socials:hover {
 }
 
 .text-linear-3 {
-  background: -webkit-linear-gradient(236deg, #f24455 0%, #ff94b2 100%);
+  background: -webkit-linear-gradient(236deg, #d6e8ff 0%, #4495fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -6155,10 +6156,10 @@ a.icon-socials:hover {
   line-height: 82px;
   font-weight: 700;
   font-family: var(--tg-body-font-family);
-  color: #ff94b2;
+  color: #d6e8ff;
 }
 .list-partners li a svg {
-  fill: #ff4747;
+  fill: #4495fc;
   margin-left: 20px;
 }
 .list-partners li a:hover span {
@@ -6853,7 +6854,7 @@ a.icon-socials:hover {
   margin-bottom: 9px;
 }
 .card-feature-2:hover .card-image {
-  background-color: #ff94b2;
+  background-color: #4495fc;
 }
 .card-feature-2.card-feature-brand-4 {
   margin-bottom: 50px;

@@ -43,7 +43,7 @@ export default function Accreditations() {
                 >
                   <div className="card-image">
                     <img
-                      src="/assets/imgs/page/homepage5/png-clipart-graphic-designer-logo-innovative-ideas-web-design-hand-thumbnail-removebg-preview.png"
+                      src="/assets/imgs/page/homepage5/Asset 1aaaa.png"
                       alt="Nivia"
                     />
                   </div>
@@ -88,8 +88,8 @@ export default function Accreditations() {
                             y2="8.58385"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="#f24455" />
-                            <stop offset={1} stopColor="#ff94b2" />
+                            <stop stopColor="#4495fc" />
+                            <stop offset={1} stopColor="#d6e8ff" />
                           </linearGradient>
                           <clipPath id="clip0_15_1041">
                             <rect
@@ -209,7 +209,7 @@ export default function Accreditations() {
                 >
                   <div className="card-image">
                     <img
-                      src="/assets/imgs/page/homepage5/pngtree-global-education-and-learning-tools-png-image_15524276-removebg-preview.png"
+                      src="/assets/imgs/page/homepage5/Asset 2aaaa.png"
                       alt="Nivia"
                     />
                   </div>
@@ -364,7 +364,7 @@ export default function Accreditations() {
                 >
                   <div className="card-image">
                     <img
-                      src="/assets/imgs/page/homepage5/404_0-removebg-preview - Edited.png"
+                      src="/assets/imgs/page/homepage5/Asset 3aaaa.png"
                       alt="Nivia"
                     />
                   </div>
@@ -478,7 +478,7 @@ export default function Accreditations() {
                 >
                   <div className="card-image">
                     <img
-                      src="/assets/imgs/page/homepage5/png-transparent-natural-environment-occupational-safety-and-health-environmental-policy-natural-environment-globe-color-world-thumbnail-removebg-preview.png"
+                      src="/assets/imgs/page/homepage5/Asset 4aaaa.png"
                       alt="Nivia"
                     />
                   </div>

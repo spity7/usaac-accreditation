@@ -212,8 +212,8 @@ export default function Fsca() {
                                       y2="5.87316"
                                       gradientUnits="userSpaceOnUse"
                                     >
-                                      <stop stopColor="#f24455" />
-                                      <stop offset={1} stopColor="#ff94b2" />
+                                      <stop stopColor="#4495fc" />
+                                      <stop offset={1} stopColor="#d6e8ff" />
                                     </linearGradient>
                                     <clipPath id="clip0_15_115">
                                       <rect

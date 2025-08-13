@@ -33,7 +33,7 @@ export default function Section1() {
                         href="/about"
                       >
                         About Us
-                        <svg
+                        {/* <svg
                           width={22}
                           height={22}
                           viewBox="0 0 22 22"
@@ -44,7 +44,7 @@ export default function Section1() {
                             d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z"
                             fill="true"
                           />
-                        </svg>
+                        </svg> */}
                       </Link>
                       {/* <VideoPopup style={2} /> */}
                     </div>
